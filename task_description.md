@@ -12,7 +12,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 ## Main Requirements
 
-1. Y̶o̶u̶r̶ h̶o̶m̶e̶p̶a̶g̶e̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ *̶*̶n̶a̶v̶b̶a̶r̶*̶*̶ ,̶ a̶ b̶a̶n̶n̶e̶r̶/̶s̶l̶i̶d̶e̶r̶,̶ A̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶,̶  second-hand **product categories** section a̶n̶d̶ a̶ r̶e̶a̶l̶i̶s̶t̶i̶c̶ *̶*̶f̶o̶o̶t̶e̶r̶*̶*̶.̶
+1. Y̶o̶u̶r̶ h̶o̶m̶e̶p̶a̶g̶e̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ *̶*̶n̶a̶v̶b̶a̶r̶*̶*̶ ,̶ a̶ b̶a̶n̶n̶e̶r̶/̶s̶l̶i̶d̶e̶r̶,̶ A̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶,̶  s̶e̶c̶o̶n̶d̶-̶h̶a̶n̶d̶ *̶*̶p̶r̶o̶d̶u̶c̶t̶ c̶a̶t̶e̶g̶o̶r̶i̶e̶s̶*̶*̶ s̶e̶c̶t̶i̶o̶n̶ a̶n̶d̶ a̶ r̶e̶a̶l̶i̶s̶t̶i̶c̶ *̶*̶f̶o̶o̶t̶e̶r̶*̶*̶.̶
 
 2. Add **one** extra section on the home page. Make sure it is unique and relevant to your website.
 

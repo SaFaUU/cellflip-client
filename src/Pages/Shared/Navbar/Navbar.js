@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import { MdAccountCircle } from 'react-icons/md';
 
 const Navbar = () => {
+    const { user, logOut } = useContext(AuthContext)
+    const handleSignOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(err => console.error(err))
+    }
     const menuItems = <>
-        <li className='rounded-xl btn btn-ghost  mr-5'><Link to='/'>Home</Link></li>
-        <li className='rounded-xl btn btn-ghost mr-5'><Link to='/blog'>Blog</Link></li>
+        <li className='rounded-xl btn btn-ghost'><Link to='/'>Home</Link></li>
+        <li className='rounded-xl btn btn-ghost'><Link to='/dashboard'>Dashboard</Link></li>
+        <li className='rounded-xl btn btn-ghost'><Link to='/blog'>Blog</Link></li>
         <li className='rounded-xl btn btn-ghost '><Link to='/login'>Login</Link></li>
     </>
     return (
@@ -29,25 +38,35 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <div className="dropdown dropdown-end">
 
+
+                    {
+                        user?.photoURL ?
+                            <label tabIndex={0} className="btn btn-ghost btn-circle avatar ">
+                                <div className="w-10 rounded-full ring ring-blue-700 ring-offset-base-100 ring-offset-2">
+                                    <img src={user?.photoURL} alt='' />
+                                </div>
+                            </label>
+                            :
+                            <MdAccountCircle className='text-5xl'></MdAccountCircle>
+                    }
+
+
+
+                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li>
+                            <Link className="justify-between">
+                                Profile
+                                <span className="badge">New</span>
+                            </Link>
+                        </li>
+                        <li><Link>Settings</Link></li>
+                        <li onClick={handleSignOut}><Link>Logout</Link></li>
+                    </ul>
+                </div>
             </div>
-            <div className="dropdown dropdown-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar ">
-                    <div className="w-10 rounded-full ring ring-blue-700 ring-offset-base-100 ring-offset-2">
-                        <img src="https://placeimg.com/80/80/people" alt='' />
-                    </div>
-                </label>
-                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                    <li>
-                        <Link className="justify-between">
-                            Profile
-                            <span className="badge">New</span>
-                        </Link>
-                    </li>
-                    <li><Link>Settings</Link></li>
-                    <li><Link>Logout</Link></li>
-                </ul>
-            </div>
+
         </div>
 
     );
