@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Banner from './Banner';
 import Card from './Card';
+import Sidebar from './Sidebar';
 
 const Home = () => {
     const rows = [];
@@ -11,12 +13,17 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <h2 className='text-4xl font-bold mb-12 divider'>Advertised Item</h2>
-            <div className='my-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10'>
+            <div className='flex my-10'>
+                <div className='mr-5'>
+                    <Sidebar></Sidebar>
+                </div>
+                <div className=' grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5'>
 
-                {
-                    rows.map(row => <Card></Card>)
-                }
+                    {
+                        rows.map(row => <Card></Card>)
+                    }
 
+                </div>
             </div>
         </div>
     );
