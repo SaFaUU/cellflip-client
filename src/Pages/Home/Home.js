@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <h2 className='text-4xl font-bold mb-12 divider'>Advertised Item</h2>
-            <div className='my-10 grid grid-cols-3 gap-10'>
+            <div className='my-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10'>
 
                 {
                     rows.map(row => <Card></Card>)

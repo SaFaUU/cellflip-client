@@ -9,7 +9,7 @@ const Card = () => {
                 <p>If a dog chews shoes whose shoes does he choose?</p>
                 <div className="card-actions justify-left w-full flex">
                     <button className="btn btn-primary text-md text-white font-bold grow">Book Now</button>
-                    <button className="btn btn-secondary text-md text-white font-bold w-1/4">Report</button>
+                    <button className="btn btn-secondary text-md text-white font-bold w-1/4 px-10">Report</button>
                 </div>
             </div>
         </div>
