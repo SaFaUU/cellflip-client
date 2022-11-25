@@ -1,9 +1,23 @@
 import React from 'react';
+import Banner from './Banner';
+import Card from './Card';
 
 const Home = () => {
+    const rows = [];
+    for (let i = 0; i < 6; i++) {
+        rows.push(i);
+    }
     return (
         <div>
-            <h2>This is home</h2>
+            <Banner></Banner>
+            <h2 className='text-4xl font-bold mb-12 divider'>Advertised Item</h2>
+            <div className='my-10 grid grid-cols-3 gap-10'>
+
+                {
+                    rows.map(row => <Card></Card>)
+                }
+
+            </div>
         </div>
     );
 };
