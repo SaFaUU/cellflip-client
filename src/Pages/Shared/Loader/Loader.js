@@ -2,11 +2,9 @@ import React from 'react';
 
 const Loader = () => {
     return (
-        <button type="button" className="bg-indigo-500 ..." disabled>
-            <svg className="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
-            </svg>
-            Loading...
-        </button>
+        <div className='flex h-96  my-10 items-center align-middle'>
+            <progress className="progress w-56"></progress>
+        </div>
     );
 };
 
