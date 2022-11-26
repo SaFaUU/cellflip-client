@@ -1,19 +1,47 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FcGoogle } from 'react-icons/fc';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Login = () => {
-    const { signInWithGoogle } = useContext(AuthContext)
+    const { signInWithGoogle, signIn } = useContext(AuthContext)
     const { register, handleSubmit } = useForm();
-    const [data, setData] = useState("");
+    const navigate = useNavigate()
+    const handleLogin = (data) => {
+        console.log(data)
+        signIn(data.email, data.password)
+            .then(result => {
+                const user = result.user;
+                console.log(user)
+            })
+            .catch(err => console.error(err))
+    }
     const handleGoogleSignIn = () => {
         signInWithGoogle()
             .then(result => {
                 const user = result.user;
                 console.log(user)
+                const userData = {
+                    email: user.email,
+                    role: 'user',
+                    name: user.displayName,
+                }
+                if (user && user?.uid) {
+                    fetch('http://localhost:5000/user', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(userData),
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log(data)
+                            navigate('/')
+                        })
+                }
             })
             .catch(err => console.error(err))
     }
@@ -25,7 +53,7 @@ const Login = () => {
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
-                        <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
+                        <form onSubmit={handleSubmit(handleLogin)}>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>

@@ -6,9 +6,14 @@ import {
     Route,
 } from "react-router-dom";
 import Main from "../../Layout/Main";
+import Blog from "../../Pages/Blog/Blog";
+import AllBuyers from "../../Pages/Dashboard/AllBuyers";
+import AllSellers from "../../Pages/Dashboard/AllSellers";
+import Dashboard from "../../Pages/Dashboard/Dashboard";
 import Home from "../../Pages/Home/Home";
 import Login from "../../Pages/Login/Login";
 import SignUp from "../../Pages/SignUp/SignUp";
+import AdminRoute from "../AdminRoute/AdminRoute";
 
 export const router = createBrowserRouter([
     {
@@ -27,6 +32,25 @@ export const router = createBrowserRouter([
                 path: '/signup',
                 element: <SignUp></SignUp>
             },
+            {
+                path: '/blog',
+                element: <Blog></Blog>
+            },
+            {
+                path: '/dashboard',
+                element: <Dashboard></Dashboard>,
+                children: [
+                    {
+                        path: '/dashboard/all-sellers',
+                        element: <AdminRoute><AllSellers></AllSellers></AdminRoute>
+                    },
+                    {
+                        path: '/dashboard/all-buyers',
+                        element: <AdminRoute><AllBuyers></AllBuyers></AdminRoute>
+                    },
+                ]
+            },
+
         ]
     },
 ]);

@@ -2,11 +2,11 @@
 
 Your website has to be related to selling used (second-hand products) with the ability to advertise a product.Some examples are **Buy-sell** second-hand furniture, car, bike, truck, bus, books, cooking utensils, mobile phones, headphones, laptops, laptop parts, watches, TV, exercise equipment, camera, clothes, music instruments, Fridge, A/C, etc. Remember, you will have to **choose only one types of product**. For instance, if you select furniture, then you **cannot** sell any other products, such as mobile phones, instruments, etc., other than furniture.
 
-1. **IMPORTANT:** Make sure your design is **unique**. Your code and design must not match any of the **projects implemented in our course**. You must not copy your **previous assignments** or any **practice project** displayed in the course or in our **conceptual sessions**. Failing to satisfy any of the above conditions will cost you a significant mark or even 0.
+1̶.̶ *̶*̶I̶M̶P̶O̶R̶T̶A̶N̶T̶:̶*̶*̶ M̶a̶k̶e̶ s̶u̶r̶e̶ y̶o̶u̶r̶ d̶e̶s̶i̶g̶n̶ i̶s̶ *̶*̶u̶n̶i̶q̶u̶e̶*̶*̶.̶ Y̶o̶u̶r̶ c̶o̶d̶e̶ a̶n̶d̶ d̶e̶s̶i̶g̶n̶ m̶u̶s̶t̶ n̶o̶t̶ m̶a̶t̶c̶h̶ a̶n̶y̶ o̶f̶ t̶h̶e̶ *̶*̶p̶r̶o̶j̶e̶c̶t̶s̶ i̶m̶p̶l̶e̶m̶e̶n̶t̶e̶d̶ i̶n̶ o̶u̶r̶ c̶o̶u̶r̶s̶e̶*̶*̶.̶ Y̶o̶u̶ m̶u̶s̶t̶ n̶o̶t̶ c̶o̶p̶y̶ y̶o̶u̶r̶ *̶*̶p̶r̶e̶v̶i̶o̶u̶s̶ a̶s̶s̶i̶g̶n̶m̶e̶n̶t̶s̶*̶*̶ o̶r̶ a̶n̶y̶ *̶*̶p̶r̶a̶c̶t̶i̶c̶e̶ p̶r̶o̶j̶e̶c̶t̶*̶*̶ d̶i̶s̶p̶l̶a̶y̶e̶d̶ i̶n̶ t̶h̶e̶ c̶o̶u̶r̶s̶e̶ o̶r̶ i̶n̶ o̶u̶r̶ *̶*̶c̶o̶n̶c̶e̶p̶t̶u̶a̶l̶ s̶e̶s̶s̶i̶o̶n̶s̶*̶*̶.̶ F̶a̶i̶l̶i̶n̶g̶ t̶o̶ s̶a̶t̶i̶s̶f̶y̶ a̶n̶y̶ o̶f̶ t̶h̶e̶ a̶b̶o̶v̶e̶ c̶o̶n̶d̶i̶t̶i̶o̶n̶s̶ w̶i̶l̶l̶ c̶o̶s̶t̶ y̶o̶u̶ a̶ s̶i̶g̶n̶i̶f̶i̶c̶a̶n̶t̶ m̶a̶r̶k̶ o̶r̶ e̶v̶e̶n̶ 0̶.̶
 
-3. Take your time thinking about the design. Just spend 30 minutes or an hour and then start your project. If needed, put a placeholder image and work on developing the functionalities. Once you are done, replace them with relevant images.
+3̶.̶ T̶a̶k̶e̶ y̶o̶u̶r̶ t̶i̶m̶e̶ t̶h̶i̶n̶k̶i̶n̶g̶ a̶b̶o̶u̶t̶ t̶h̶e̶ d̶e̶s̶i̶g̶n̶.̶ J̶u̶s̶t̶ s̶p̶e̶n̶d̶ 3̶0̶ m̶i̶n̶u̶t̶e̶s̶ o̶r̶ a̶n̶ h̶o̶u̶r̶ a̶n̶d̶ t̶h̶e̶n̶ s̶t̶a̶r̶t̶ y̶o̶u̶r̶ p̶r̶o̶j̶e̶c̶t̶.̶ I̶f̶ n̶e̶e̶d̶e̶d̶,̶ p̶u̶t̶ a̶ p̶l̶a̶c̶e̶h̶o̶l̶d̶e̶r̶ i̶m̶a̶g̶e̶ a̶n̶d̶ w̶o̶r̶k̶ o̶n̶ d̶e̶v̶e̶l̶o̶p̶i̶n̶g̶ t̶h̶e̶ f̶u̶n̶c̶t̶i̶o̶n̶a̶l̶i̶t̶i̶e̶s̶.̶ O̶n̶c̶e̶ y̶o̶u̶ a̶r̶e̶ d̶o̶n̶e̶,̶ r̶e̶p̶l̶a̶c̶e̶ t̶h̶e̶m̶ w̶i̶t̶h̶ r̶e̶l̶e̶v̶a̶n̶t̶ i̶m̶a̶g̶e̶s̶.̶
 
-4. Use the Environment variable on both the client (firebase config) and server side (MongoDB credentials, Access token secret, stripe, etc.). Use the .gitignore file on the server side.
+4̶.̶ U̶s̶e̶ t̶h̶e̶ E̶n̶v̶i̶r̶o̶n̶m̶e̶n̶t̶ v̶a̶r̶i̶a̶b̶l̶e̶ o̶n̶ b̶o̶t̶h̶ t̶h̶e̶ c̶l̶i̶e̶n̶t̶ (̶f̶i̶r̶e̶b̶a̶s̶e̶ c̶o̶n̶f̶i̶g̶)̶ a̶n̶d̶ s̶e̶r̶v̶e̶r̶ s̶i̶d̶e̶ (̶M̶o̶n̶g̶o̶D̶B̶ c̶r̶e̶d̶e̶n̶t̶i̶a̶l̶s̶,̶ A̶c̶c̶e̶s̶s̶ t̶o̶k̶e̶n̶ s̶e̶c̶r̶e̶t̶,̶ s̶t̶r̶i̶p̶e̶,̶ e̶t̶c̶.̶)̶.̶ U̶s̶e̶ t̶h̶e̶ .̶g̶i̶t̶i̶g̶n̶o̶r̶e̶ f̶i̶l̶e̶ o̶n̶ t̶h̶e̶ s̶e̶r̶v̶e̶r̶ s̶i̶d̶e̶.̶
 
 5. It is important to note that your UX design should be good. For example, suppose a user does not see data when they visit a route, does not see the ad after posting the advertisement without reloading the site, or gets logged out when visiting a private route right after signing up. In that case, etc., then **you may lose a significant mark for that**.
 
@@ -22,9 +22,9 @@ Your website has to be related to selling used (second-hand products) with the a
 
 5. On clicking the **Book now** button, a form in a modal will popup with the logged-in user name and email address, item name, and price(item name, price, and user information will not be editable) by default. You will give your phone number and meeting location, and lastly, there will be a submit button. After clicking the submit button, you will have to inform the buyer with a modal/toast that the item is booked.
 
-6. Your navbar will have a **login** button. Implement email/password-based authentication and at least one social login(google, Facebook, GitHub, etc.) authentication. **Create an extra field for options. There will be two options: a radio button, a dropdown, a toggle button, etc. If the user creates a seller account, he will choose the seller option. Otherwise, a normal user will have the user option selected by default**. Users logged in by using social media will be considered as buyers. 
+6̶.̶ Y̶o̶u̶r̶ n̶a̶v̶b̶a̶r̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ *̶*̶l̶o̶g̶i̶n̶*̶*̶ b̶u̶t̶t̶o̶n̶.̶ I̶m̶p̶l̶e̶m̶e̶n̶t̶ e̶m̶a̶i̶l̶/̶p̶a̶s̶s̶w̶o̶r̶d̶-̶b̶a̶s̶e̶d̶ a̶u̶t̶h̶e̶n̶t̶i̶c̶a̶t̶i̶o̶n̶ a̶n̶d̶ a̶t̶ l̶e̶a̶s̶t̶ o̶n̶e̶ s̶o̶c̶i̶a̶l̶ l̶o̶g̶i̶n̶(̶g̶o̶o̶g̶l̶e̶,̶ F̶a̶c̶e̶b̶o̶o̶k̶,̶ G̶i̶t̶H̶u̶b̶,̶ e̶t̶c̶.̶)̶ a̶u̶t̶h̶e̶n̶t̶i̶c̶a̶t̶i̶o̶n̶.̶ *̶*̶C̶r̶e̶a̶t̶e̶ a̶n̶ e̶x̶t̶r̶a̶ f̶i̶e̶l̶d̶ f̶o̶r̶ o̶p̶t̶i̶o̶n̶s̶.̶ T̶h̶e̶r̶e̶ w̶i̶l̶l̶ b̶e̶ t̶w̶o̶ o̶p̶t̶i̶o̶n̶s̶:̶ a̶ r̶a̶d̶i̶o̶ b̶u̶t̶t̶o̶n̶,̶ a̶ d̶r̶o̶p̶d̶o̶w̶n̶,̶ a̶ t̶o̶g̶g̶l̶e̶ b̶u̶t̶t̶o̶n̶,̶ e̶t̶c̶.̶ I̶f̶ t̶h̶e̶ u̶s̶e̶r̶ c̶r̶e̶a̶t̶e̶s̶ a̶ s̶e̶l̶l̶e̶r̶ a̶c̶c̶o̶u̶n̶t̶,̶ h̶e̶ w̶i̶l̶l̶ c̶h̶o̶o̶s̶e̶ t̶h̶e̶ s̶e̶l̶l̶e̶r̶ o̶p̶t̶i̶o̶n̶.̶ O̶t̶h̶e̶r̶w̶i̶s̶e̶,̶ a̶ n̶o̶r̶m̶a̶l̶ u̶s̶e̶r̶ w̶i̶l̶l̶ h̶a̶v̶e̶ t̶h̶e̶ u̶s̶e̶r̶ o̶p̶t̶i̶o̶n̶ s̶e̶l̶e̶c̶t̶e̶d̶ b̶y̶ d̶e̶f̶a̶u̶l̶t̶*̶*̶.̶ U̶s̶e̶r̶s̶ l̶o̶g̶g̶e̶d̶ i̶n̶ b̶y̶ u̶s̶i̶n̶g̶ s̶o̶c̶i̶a̶l̶ m̶e̶d̶i̶a̶ w̶i̶l̶l̶ b̶e̶ c̶o̶n̶s̶i̶d̶e̶r̶e̶d̶ a̶s̶ b̶u̶y̶e̶r̶s̶.̶ 
 
-      **Note:** Do not apply email verification as it will be an inconvenience for the examiner. It is important for the examiner to be able to check your authentication without any hassle. If you want, you can add email verification after getting the assignment result.
+      *̶*̶N̶o̶t̶e̶:̶*̶*̶ D̶o̶ n̶o̶t̶ a̶p̶p̶l̶y̶ e̶m̶a̶i̶l̶ v̶e̶r̶i̶f̶i̶c̶a̶t̶i̶o̶n̶ a̶s̶ i̶t̶ w̶i̶l̶l̶ b̶e̶ a̶n̶ i̶n̶c̶o̶n̶v̶e̶n̶i̶e̶n̶c̶e̶ f̶o̶r̶ t̶h̶e̶ e̶x̶a̶m̶i̶n̶e̶r̶.̶ I̶t̶ i̶s̶ i̶m̶p̶o̶r̶t̶a̶n̶t̶ f̶o̶r̶ t̶h̶e̶ e̶x̶a̶m̶i̶n̶e̶r̶ t̶o̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ c̶h̶e̶c̶k̶ y̶o̶u̶r̶ a̶u̶t̶h̶e̶n̶t̶i̶c̶a̶t̶i̶o̶n̶ w̶i̶t̶h̶o̶u̶t̶ a̶n̶y̶ h̶a̶s̶s̶l̶e̶.̶ I̶f̶ y̶o̶u̶ w̶a̶n̶t̶,̶ y̶o̶u̶ c̶a̶n̶ a̶d̶d̶ e̶m̶a̶i̶l̶ v̶e̶r̶i̶f̶i̶c̶a̶t̶i̶o̶n̶ a̶f̶t̶e̶r̶ g̶e̶t̶t̶i̶n̶g̶ t̶h̶e̶ a̶s̶s̶i̶g̶n̶m̶e̶n̶t̶ r̶e̶s̶u̶l̶t̶.̶
 
 7. If a user(buyer/seller/admin) is logged in, they will see **logout** (should be working) and another option on the header called Dashboard. The dashboard routes will change based on the users:
 
@@ -32,7 +32,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
       **Sellers will see:** Add A product (See Requirement 8), My Products(see requirement 9), My buyers(this one is optional).
 
-      **Admin will see:** All Sellers, All Buyers (see requirement 12), Reported Items
+      *̶*̶A̶d̶m̶i̶n̶ w̶i̶l̶l̶ s̶e̶e̶:̶*̶*̶ A̶l̶l̶ S̶e̶l̶l̶e̶r̶s̶,̶ A̶l̶l̶ B̶u̶y̶e̶r̶s̶ (̶s̶e̶e̶ r̶e̶q̶u̶i̶r̶e̶m̶e̶n̶t̶ 1̶2̶)̶,̶ R̶e̶p̶o̶r̶t̶e̶d̶ I̶t̶e̶m̶s̶
 
 8. On the " **Add A Product**" route, create a form that will have fields for product name, price, condition type(excellent, good, fair), mobile number, location (Chittagong, Dhaka, etc.), product category (every product should be under a category), description, price, Year of purchase and other relevant information. After submitting the form, a modal/toast with a message will pop up to inform the user. Please remember, they must be a seller to add a product (think about the verification process for the admin access). After adding the product, you will then be redirected to the My Products Page.
 
@@ -42,7 +42,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 11. " **My buyers" are optional.** See the optional section for details. On this page, a seller will see the buyer's phone, name, email address, and location.
 
-12. In the **All Sellers,** the Admin will see the sellers. On the **All Buyers** route, the Admin can see all the Buyers. If the Admin wants, he can delete any buyers or sellers.
+1̶2̶.̶ I̶n̶ t̶h̶e̶ *̶*̶A̶l̶l̶ S̶e̶l̶l̶e̶r̶s̶,̶*̶*̶ t̶h̶e̶ A̶d̶m̶i̶n̶ w̶i̶l̶l̶ s̶e̶e̶ t̶h̶e̶ s̶e̶l̶l̶e̶r̶s̶.̶ O̶n̶ t̶h̶e̶ *̶*̶A̶l̶l̶ B̶u̶y̶e̶r̶s̶*̶*̶ r̶o̶u̶t̶e̶,̶ t̶h̶e̶ A̶d̶m̶i̶n̶ c̶a̶n̶ s̶e̶e̶ a̶l̶l̶ t̶h̶e̶ B̶u̶y̶e̶r̶s̶.̶ I̶f̶ t̶h̶e̶ A̶d̶m̶i̶n̶ w̶a̶n̶t̶s̶,̶ h̶e̶ c̶a̶n̶ d̶e̶l̶e̶t̶e̶ a̶n̶y̶ b̶u̶y̶e̶r̶s̶ o̶r̶ s̶e̶l̶l̶e̶r̶s̶.̶
 
 13. On the navbar, there will be a Blogs route. This will be an open route (anyone visiting your website will see it). You will have to answer all the questions, and they are
 
@@ -56,7 +56,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 14. Create a meaningful 404 page (not found page). Add a meaningful image on the 404 page.
 
-15. Use a database to store information. It could be MongoDB atlas or any other database. Save the users in the database
+1̶5̶.̶ U̶s̶e̶ a̶ d̶a̶t̶a̶b̶a̶s̶e̶ t̶o̶ s̶t̶o̶r̶e̶ i̶n̶f̶o̶r̶m̶a̶t̶i̶o̶n̶.̶ I̶t̶ c̶o̶u̶l̶d̶ b̶e̶ M̶o̶n̶g̶o̶D̶B̶ a̶t̶l̶a̶s̶ o̶r̶ a̶n̶y̶ o̶t̶h̶e̶r̶ d̶a̶t̶a̶b̶a̶s̶e̶.̶ S̶a̶v̶e̶ t̶h̶e̶ u̶s̶e̶r̶s̶ i̶n̶ t̶h̶e̶ d̶a̶t̶a̶b̶a̶s̶e̶
 
 ## Bonus Requirements
 
@@ -64,7 +64,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 2. At least 16 meaningful GitHub commits for the client side and 9 meaningful commits for the server-side repository. Your code should be clean and organized. Comments should be added where necessary
 
-3. Add a meaningful favicon. If data is loading, a spinner will be displayed. When you are loading data by using a loader, make sure you have added a route.
+3̶.̶ A̶d̶d̶ a̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ f̶a̶v̶i̶c̶o̶n̶.̶ If data is loading, a spinner will be displayed. When you are loading data by using a loader, make sure you have added a route.
 
 4. Implement an extra feature: **WishList** or **Report to Admin**(choose one) in the /category/:id route. A buyer can make a product to his/her wishlist or report an item by clicking a relevant button. If you have implemented the wishlist feature, show them in the buyer's Dashboard in a separate route, "My WishList." A user should be able to purchase the item from the wishlist page. (Just redirect the user to the purchase page)
 

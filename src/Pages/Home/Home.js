@@ -13,14 +13,15 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <h2 className='text-4xl font-bold mb-12 divider'>Advertised Item</h2>
-            <div className='flex my-10'>
-                <div className='mr-5'>
+            <div className='lg:flex my-10  mx-auto'>
+                <div className='lg:mr-5 align-middle'>
                     <Sidebar></Sidebar>
                 </div>
-                <div className=' grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5'>
+                {/* grid lg:grid-cols-3 grid-cols-2 grid-flow-row-dense gap-10 */}
+                <div className='flex flex-row flex-wrap justify-between'>
 
                     {
-                        rows.map(row => <Card></Card>)
+                        rows.map((row, index) => <Card></Card>)
                     }
 
                 </div>
