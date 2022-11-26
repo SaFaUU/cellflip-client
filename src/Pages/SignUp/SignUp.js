@@ -16,6 +16,7 @@ const SignUp = () => {
                     email: data.email,
                     role: data.role,
                     name: data.name,
+                    verified: false,
                 }
                 if (user && user?.uid) {
                     fetch('http://localhost:5000/user', {

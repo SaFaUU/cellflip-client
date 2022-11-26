@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Main from "../../Layout/Main";
 import Blog from "../../Pages/Blog/Blog";
+import AddCategories from "../../Pages/Dashboard/AddCategories";
+import AddProduct from "../../Pages/Dashboard/AddProduct";
 import AllBuyers from "../../Pages/Dashboard/AllBuyers";
 import AllSellers from "../../Pages/Dashboard/AllSellers";
 import Dashboard from "../../Pages/Dashboard/Dashboard";
@@ -55,8 +57,16 @@ export const router = createBrowserRouter([
                         element: <AdminRoute><ReportedItems></ReportedItems></AdminRoute>
                     },
                     {
+                        path: '/dashboard/add-categories',
+                        element: <AdminRoute><AddCategories></AddCategories></AdminRoute>
+                    },
+                    {
                         path: '/dashboard/my-orders',
                         element: <MyOrders></MyOrders>
+                    },
+                    {
+                        path: '/dashboard/add-product',
+                        element: <AddProduct></AddProduct>
                     },
                 ]
             },

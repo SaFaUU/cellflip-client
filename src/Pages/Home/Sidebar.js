@@ -1,7 +1,16 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
+    const [categories, setCategories] = useState([])
+    useEffect(() => {
+        axios.get('http://localhost:5000/categories')
+            .then(data => {
+                console.log(data.data);
+                setCategories(data.data)
+            })
+    }, [])
     return (
         <div className="drawer drawer-mobile border border-slate-200 rounded-xl h-auto mb-5">
 
@@ -15,9 +24,11 @@ const Sidebar = () => {
                 </label>
                 <h2 className='font-bold text-2xl  bg-slate-100 py-6'>Categories</h2>
                 <ul className="menu p-4 lg:w-80 bg-base-100 text-base-content lg:block flex flex-row w-full justify-between">
-                    <li><Link>Iphone</Link></li>
-                    <li><Link>Samsung</Link></li>
-                    <li><Link>Redmi</Link></li>
+
+                    {
+                        categories?.map((category, index) =>
+                            <li><Link>{category.name}</Link></li>)
+                    }
                 </ul>
 
             </div>

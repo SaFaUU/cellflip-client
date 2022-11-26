@@ -30,7 +30,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
       *̶*̶B̶u̶y̶e̶r̶s̶ w̶i̶l̶l̶ s̶e̶e̶:̶*̶*̶ M̶y̶ o̶r̶d̶e̶r̶s̶(̶s̶e̶e̶ b̶o̶n̶u̶s̶ r̶e̶q̶u̶i̶r̶e̶m̶e̶n̶t̶ 7̶)̶,̶
 
-      **Sellers will see:** Add A product (See Requirement 8), My Products(see requirement 9), My buyers(this one is optional).
+      *̶*̶S̶e̶l̶l̶e̶r̶s̶ w̶i̶l̶l̶ s̶e̶e̶:̶*̶*̶ A̶d̶d̶ A̶ p̶r̶o̶d̶u̶c̶t̶ (̶S̶e̶e̶ R̶e̶q̶u̶i̶r̶e̶m̶e̶n̶t̶ 8̶)̶,̶ M̶y̶ P̶r̶o̶d̶u̶c̶t̶s̶(̶s̶e̶e̶ r̶e̶q̶u̶i̶r̶e̶m̶e̶n̶t̶ 9̶)̶,̶ M̶y̶ b̶u̶y̶e̶r̶s̶(̶t̶h̶i̶s̶ o̶n̶e̶ i̶s̶ o̶p̶t̶i̶o̶n̶a̶l̶)̶.̶
 
       *̶*̶A̶d̶m̶i̶n̶ w̶i̶l̶l̶ s̶e̶e̶:̶*̶*̶ A̶l̶l̶ S̶e̶l̶l̶e̶r̶s̶,̶ A̶l̶l̶ B̶u̶y̶e̶r̶s̶ (̶s̶e̶e̶ r̶e̶q̶u̶i̶r̶e̶m̶e̶n̶t̶ 1̶2̶)̶,̶ R̶e̶p̶o̶r̶t̶e̶d̶ I̶t̶e̶m̶s̶
 

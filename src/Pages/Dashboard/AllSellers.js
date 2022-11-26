@@ -17,6 +17,7 @@ const AllSellers = () => {
                         <th>Email</th>
                         <th>Role</th>
                         <th>Make Admin</th>
+                        <th>Verify</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
@@ -32,7 +33,8 @@ const AllSellers = () => {
                                     <td>{user.name}</td>
                                     <td>{user.email}</td>
                                     <td>{user.role}</td>
-                                    <td><button className='btn btn-primary btn-sm'>Make Admin</button></td>
+                                    <td><button className='btn btn-accent btn-sm'>Make Admin</button></td>
+                                    <td><button className='btn btn-primary btn-sm'>Verify</button></td>
                                     <td>
                                         <button className='btn btn-secondary btn-sm '>DELETE</button>
                                     </td>
