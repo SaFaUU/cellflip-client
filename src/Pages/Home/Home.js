@@ -15,23 +15,27 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h2 className='text-4xl font-bold mb-12 divider'>Advertised Item</h2>
-            <div className='lg:flex my-10  mx-auto'>
-                <div className='lg:mr-5 align-middle'>
-                    <Sidebar></Sidebar>
-                </div>
-                {/* grid lg:grid-cols-3 grid-cols-2 grid-flow-row-dense gap-10 */}
-                <div className='flex flex-row flex-wrap justify-between'>
+            {products?.length > 0 &&
+                <div>
+                    <h2 className='text-4xl font-bold mb-12 divider'>Advertised Item</h2>
+                    <div className='lg:flex my-10  mx-auto'>
+                        <div className='lg:mr-5 align-middle'>
+                            <Sidebar></Sidebar>
+                        </div>
+                        {/* grid lg:grid-cols-3 grid-cols-2 grid-flow-row-dense gap-10 */}
+                        <div className='flex flex-row flex-wrap justify-between'>
 
-                    {
-                        products?.map((product, index) => <Card
-                            key={index}
-                            product={product}
-                        ></Card>)
-                    }
+                            {
+                                products?.map((product, index) => <Card
+                                    key={index}
+                                    product={product}
+                                ></Card>)
+                            }
 
+                        </div>
+                    </div>
                 </div>
-            </div>
+            }
         </div>
     );
 };

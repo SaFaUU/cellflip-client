@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import useUser from '../../Hooks/useUser';
@@ -7,20 +7,35 @@ import Loader from '../Shared/Loader/Loader';
 const MyProducts = () => {
     const { user, loading } = useContext(AuthContext)
 
-    const [products, setProducts] = useState([])
-    useEffect(() => {
-        fetch(`http://localhost:5000/my-products/${user?.email}`)
+    // const [products, setProducts] = useState([])
+    // useEffect(() => {
+    //     fetch(`http://localhost:5000/my-products/${user?.email}`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setProducts(data)
+    //         })
+    // }, [user, products])
+    const { data: products = [], refetch, isLoading } = useQuery({
+        queryKey: ['my-products', user?.email],
+        queryFn: () => fetch(`http://localhost:5000/my-products/${user?.email}`)
+            .then(res => res.json())
+    })
+
+    const handleDelete = (product) => {
+        fetch(`http://localhost:5000/my-products/${product._id}`, {
+            method: 'DELETE'
+        })
             .then(res => res.json())
             .then(data => {
-                setProducts(data)
+                console.log(data)
+                refetch()
             })
-    }, [user?.email, products])
+    }
 
     const handleAdvertise = (product) => {
         // console.log(product)
         product.advertiseEnable = !product.advertiseEnable
         console.log(product)
-
         fetch(`http://localhost:5000/my-products/${product._id}`, {
             method: 'PUT',
             headers: {
@@ -31,7 +46,11 @@ const MyProducts = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data)
+                if (data.modifiedCount) {
+                    refetch()
+                }
             })
+
     }
 
     if (loading) {
@@ -64,9 +83,13 @@ const MyProducts = () => {
                                     <td>{product.date}</td>
                                     <td>{product.price}BDT</td>
                                     <td>{product.availability ? 'available' : 'Sold'}</td>
-                                    <td><button onClick={() => handleAdvertise(product)} className='btn btn-primary btn-sm'>{product.advertiseEnable ? 'Disable' : 'Enable'}</button></td>
+                                    <td><button onClick={() => {
+                                        handleAdvertise(product)
+                                        product.advertiseEnable = !product.advertiseEnable
+                                    }} className='btn btn-primary btn-sm'
+                                    >{product?.advertiseEnable ? 'Disable' : 'Enable'}</button></td>
                                     <td>
-                                        <button className='btn btn-secondary btn-sm '>DELETE</button>
+                                        <button onClick={() => handleDelete(product)} className='btn btn-secondary btn-sm '>DELETE</button>
                                     </td>
                                 </tr>
                             )

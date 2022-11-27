@@ -38,7 +38,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 9̶.̶ O̶n̶ t̶h̶e̶ *̶*̶"̶M̶y̶ P̶r̶o̶d̶u̶c̶t̶s̶"̶*̶*̶ p̶a̶g̶e̶,̶ d̶i̶s̶p̶l̶a̶y̶ s̶a̶l̶e̶s̶ s̶t̶a̶t̶u̶s̶ (̶a̶v̶a̶i̶l̶a̶b̶l̶e̶ o̶r̶ s̶o̶l̶d̶)̶,̶ p̶r̶i̶c̶e̶,̶ a̶n̶d̶ a̶n̶y̶ o̶t̶h̶e̶r̶ r̶e̶l̶e̶v̶a̶n̶t̶ i̶n̶f̶o̶r̶m̶a̶t̶i̶o̶n̶ y̶o̶u̶ w̶a̶n̶t̶ t̶o̶ s̶h̶o̶w̶.̶ A̶ s̶e̶l̶l̶e̶r̶ w̶i̶l̶l̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ d̶e̶l̶e̶t̶e̶ a̶n̶y̶ o̶f̶ h̶i̶s̶/̶h̶e̶r̶ p̶r̶o̶d̶u̶c̶t̶.̶ Please note there will be a special button for each unsold/available product where the seller can hit the button to advertise. 
 
-10. The advertised items will appear on the home page. Please note if there are no items marked as advertised, the advertised items section won't be displayed on the home page. The advertised section will only appear if there is one or more available (unsold items) are marked to be advertised.
+1̶0̶.̶ T̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶ w̶i̶l̶l̶ a̶p̶p̶e̶a̶r̶ o̶n̶ t̶h̶e̶ h̶o̶m̶e̶ p̶a̶g̶e̶.̶ P̶l̶e̶a̶s̶e̶ n̶o̶t̶e̶ i̶f̶ t̶h̶e̶r̶e̶ a̶r̶e̶ n̶o̶ i̶t̶e̶m̶s̶ m̶a̶r̶k̶e̶d̶ a̶s̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶,̶ t̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶ s̶e̶c̶t̶i̶o̶n̶ w̶o̶n̶'̶t̶ b̶e̶ d̶i̶s̶p̶l̶a̶y̶e̶d̶ o̶n̶ t̶h̶e̶ h̶o̶m̶e̶ p̶a̶g̶e̶.̶ T̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ s̶e̶c̶t̶i̶o̶n̶ w̶i̶l̶l̶ o̶n̶l̶y̶ a̶p̶p̶e̶a̶r̶ i̶f̶ t̶h̶e̶r̶e̶ i̶s̶ o̶n̶e̶ o̶r̶ m̶o̶r̶e̶ a̶v̶a̶i̶l̶a̶b̶l̶e̶ (̶u̶n̶s̶o̶l̶d̶ i̶t̶e̶m̶s̶)̶ a̶r̶e̶ m̶a̶r̶k̶e̶d̶ t̶o̶ b̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶.̶
 
 11. " **My buyers" are optional.** See the optional section for details. On this page, a seller will see the buyer's phone, name, email address, and location.
 

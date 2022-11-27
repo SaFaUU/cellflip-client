@@ -19,7 +19,7 @@ const AddProduct = () => {
                 // console.log(data.data);
                 setCategories(data.data)
             })
-    }, [])
+    }, [handleSubmit])
 
     const handleAddProduct = (data) => {
 
