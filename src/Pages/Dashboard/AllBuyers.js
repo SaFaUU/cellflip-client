@@ -3,7 +3,7 @@ import React from 'react';
 
 const AllBuyers = () => {
     const { data: users } = useQuery({
-        queryKey: 'buyers',
+        queryKey: ['buyers'],
         queryFn: () => fetch('http://localhost:5000/user?role=user')
             .then(res => res.json())
     })

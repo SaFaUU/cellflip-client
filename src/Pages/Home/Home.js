@@ -1,3 +1,4 @@
+import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Banner from './Banner';
@@ -5,10 +6,12 @@ import Card from './Card';
 import Sidebar from './Sidebar';
 
 const Home = () => {
-    const rows = [];
-    for (let i = 0; i < 6; i++) {
-        rows.push(i);
-    }
+    const { data: products } = useQuery({
+        queryKey: 'allProducts',
+        queryFn: () => fetch('http://localhost:5000/products')
+            .then(res => res.json())
+    })
+
     return (
         <div>
             <Banner></Banner>
@@ -21,7 +24,10 @@ const Home = () => {
                 <div className='flex flex-row flex-wrap justify-between'>
 
                     {
-                        rows.map((row, index) => <Card></Card>)
+                        products?.map((product, index) => <Card
+                            key={index}
+                            product={product}
+                        ></Card>)
                     }
 
                 </div>

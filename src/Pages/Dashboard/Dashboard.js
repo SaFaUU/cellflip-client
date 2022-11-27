@@ -5,7 +5,7 @@ import DashboardSidebar from './DashboardSidebar';
 
 const Dashboard = () => {
     return (
-        <div className='flex'>
+        <div className='flex mb-40'>
             <DashboardSidebar></DashboardSidebar>
             <div className='ml-5 w-full'>
                 <Outlet></Outlet>

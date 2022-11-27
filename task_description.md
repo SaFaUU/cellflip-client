@@ -36,7 +36,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 8. On the " **Add A Product**" route, create a form that will have fields for product name, price, condition type(excellent, good, fair), mobile number, location (Chittagong, Dhaka, etc.), product category (every product should be under a category), description, price, Year of purchase and other relevant information. After submitting the form, a modal/toast with a message will pop up to inform the user. Please remember, they must be a seller to add a product (think about the verification process for the admin access). After adding the product, you will then be redirected to the My Products Page.
 
-9. On the **"My Products"** page, display sales status (available or sold), price, and any other relevant information you want to show. A seller will be able to delete any of his/her product. Please note there will be a special button for each unsold/available product where the seller can hit the button to advertise. 
+9̶.̶ O̶n̶ t̶h̶e̶ *̶*̶"̶M̶y̶ P̶r̶o̶d̶u̶c̶t̶s̶"̶*̶*̶ p̶a̶g̶e̶,̶ d̶i̶s̶p̶l̶a̶y̶ s̶a̶l̶e̶s̶ s̶t̶a̶t̶u̶s̶ (̶a̶v̶a̶i̶l̶a̶b̶l̶e̶ o̶r̶ s̶o̶l̶d̶)̶,̶ p̶r̶i̶c̶e̶,̶ a̶n̶d̶ a̶n̶y̶ o̶t̶h̶e̶r̶ r̶e̶l̶e̶v̶a̶n̶t̶ i̶n̶f̶o̶r̶m̶a̶t̶i̶o̶n̶ y̶o̶u̶ w̶a̶n̶t̶ t̶o̶ s̶h̶o̶w̶.̶ A̶ s̶e̶l̶l̶e̶r̶ w̶i̶l̶l̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ d̶e̶l̶e̶t̶e̶ a̶n̶y̶ o̶f̶ h̶i̶s̶/̶h̶e̶r̶ p̶r̶o̶d̶u̶c̶t̶.̶ Please note there will be a special button for each unsold/available product where the seller can hit the button to advertise. 
 
 10. The advertised items will appear on the home page. Please note if there are no items marked as advertised, the advertised items section won't be displayed on the home page. The advertised section will only appear if there is one or more available (unsold items) are marked to be advertised.
 
@@ -78,7 +78,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
       Once an item is paid, it won't be displayed on the advertised item or on the category page. Only available items will be displayed to be purchased.
 
-8. Use react query for at least two API calls.Use Axios for at least one API call
+8̶.̶ U̶s̶e̶ r̶e̶a̶c̶t̶ q̶u̶e̶r̶y̶ f̶o̶r̶ a̶t̶ l̶e̶a̶s̶t̶ t̶w̶o̶ A̶P̶I̶ c̶a̶l̶l̶s̶.̶U̶s̶e̶ A̶x̶i̶o̶s̶ f̶o̶r̶ a̶t̶ l̶e̶a̶s̶t̶ o̶n̶e̶ A̶P̶I̶ c̶a̶l̶l̶
 
 9. Most likely framework will do it for you. However do not forget to make your entire website responsive. (It is ok if the table is not responsive.) please note, all the pages including dashboard will be responsive.
 
