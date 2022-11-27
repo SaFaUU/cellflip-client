@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FcGoogle } from 'react-icons/fc';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import toast from 'react-hot-toast';
 
 const Login = () => {
     const { signInWithGoogle, signIn } = useContext(AuthContext)
@@ -15,6 +16,7 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user)
+                toast.success(`Welcome to CellFlip User`)
                 navigate('/')
             })
             .catch(err => console.error(err))
@@ -29,6 +31,7 @@ const Login = () => {
                     role: 'user',
                     name: user.displayName,
                 }
+                toast.success(`Welcome ${user.displayName}`)
                 if (user && user?.uid) {
                     fetch('http://localhost:5000/user', {
                         method: 'POST',

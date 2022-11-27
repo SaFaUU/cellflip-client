@@ -1,13 +1,19 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import { MdAccountCircle } from 'react-icons/md';
+import toast from 'react-hot-toast';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
+    const navigate = useNavigate()
     const handleSignOut = () => {
         logOut()
-            .then(() => { })
+            .then(() => {
+                toast.success('You have signed out');
+                navigate('/');
+
+            })
             .catch(err => console.error(err))
     }
     const menuItems = <>

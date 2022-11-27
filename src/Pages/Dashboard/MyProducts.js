@@ -1,5 +1,6 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import React, { useContext, useEffect, useState } from 'react';
+import toast from 'react-hot-toast';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import useUser from '../../Hooks/useUser';
 import Loader from '../Shared/Loader/Loader';
@@ -45,6 +46,12 @@ const MyProducts = () => {
         })
             .then(res => res.json())
             .then(data => {
+                if (product.advertiseEnable) {
+                    toast.error('Advertisement Disabled')
+                }
+                else {
+                    toast.success('Advertisement Enabled')
+                }
                 console.log(data)
                 if (data.modifiedCount) {
                     refetch()

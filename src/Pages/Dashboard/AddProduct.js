@@ -2,6 +2,7 @@ import axios from 'axios';
 import { format } from 'date-fns/esm';
 import React, { useContext, useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import useUser from '../../Hooks/useUser';
@@ -48,6 +49,8 @@ const AddProduct = () => {
                         price: data.price,
                         date: format(new Date(), 'PP'),
                         advertiseEnable: false,
+                        condition: data.condition,
+                        purchaseYear: data.purchaseYear,
                         availability: "available",
                         reported: false,
                     }
@@ -61,6 +64,7 @@ const AddProduct = () => {
                     })
                         .then(res => res.json())
                         .then(data => {
+                            toast.success('Product added successfully')
                             console.log(data)
                             navigate('/dashboard/my-products')
                         })
@@ -74,7 +78,7 @@ const AddProduct = () => {
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl text-center font-bold">Add Product</h1>
                 </div>
-                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div className="card  w-full shadow-2xl bg-base-100">
                     <div className="card-body">
                         <form onSubmit={handleSubmit(handleAddProduct)}>
                             <div className="form-control">
@@ -100,9 +104,26 @@ const AddProduct = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
+                                    <span className="label-text">Condition Type</span>
+                                </label>
+                                <select {...register("condition", { required: true })}
+                                    className='input input-bordered'>
+                                    <option value='Excellent'>Excellent</option>
+                                    <option value='Good'>Good</option>
+                                    <option value='Fair'>Fair</option>
+                                </select>
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
                                     <span className="label-text">Price</span>
                                 </label>
                                 <input {...register("price")} placeholder="Price" className="input input-bordered" type='text' />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Year of Purchase</span>
+                                </label>
+                                <input {...register("purchaseYear")} placeholder="Year of Purchase" className="input input-bordered" type='text' />
                             </div>
                             <div className="form-control">
                                 <label className="label">
