@@ -7,7 +7,7 @@ const Sidebar = () => {
     useEffect(() => {
         axios.get('http://localhost:5000/categories')
             .then(data => {
-                console.log(data.data);
+                // console.log(data.data);
                 setCategories(data.data)
             })
     }, [])
@@ -27,7 +27,9 @@ const Sidebar = () => {
 
                     {
                         categories?.map((category, index) =>
-                            <li><Link>{category.name}</Link></li>)
+                            <li
+                                key={index}
+                            ><Link>{category.name}</Link></li>)
                     }
                 </ul>
 

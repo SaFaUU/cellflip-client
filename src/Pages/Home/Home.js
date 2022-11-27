@@ -7,7 +7,7 @@ import Sidebar from './Sidebar';
 
 const Home = () => {
     const { data: products } = useQuery({
-        queryKey: 'allProducts',
+        queryKey: ['allProducts'],
         queryFn: () => fetch('http://localhost:5000/products')
             .then(res => res.json())
     })

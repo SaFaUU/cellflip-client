@@ -1,7 +1,19 @@
 import React from 'react';
+import toast from 'react-hot-toast';
 
 const Card = ({ product }) => {
     const { productName, img_url, description, price, date } = product;
+    const handleReport = (product) => {
+        console.log(product)
+        fetch(`http://localhost:5000/report/${product._id}`, {
+            method: 'PUT',
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+                toast.success('Product Reported to Admin');
+            })
+    }
     return (
         <div className="card lg:w-[380px] w-full bg-base-100 shadow-lg mb-10 flex ">
             <figure><img src={img_url} alt="Shoes" className='h-96' /></figure>
@@ -14,7 +26,7 @@ const Card = ({ product }) => {
                 </div>
                 <div className="card-actions justify-left w-full flex">
                     <button className="btn btn-primary text-md text-white font-bold grow">Book Now</button>
-                    <button className="btn btn-secondary text-md text-white font-bold w-1/4 px-10">Report</button>
+                    <button onClick={() => handleReport(product)} className="btn btn-secondary text-md text-white font-bold w-1/4 px-10">Report</button>
                 </div>
             </div>
         </div>

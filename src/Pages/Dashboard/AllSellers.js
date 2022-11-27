@@ -2,11 +2,22 @@ import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 
 const AllSellers = () => {
-    const { data: users } = useQuery({
+    const { data: users, refetch } = useQuery({
         queryKey: ['sellers'],
         queryFn: () => fetch('http://localhost:5000/user?role=seller')
             .then(res => res.json())
     })
+    const handleVerification = (user) => {
+        console.log(user)
+        fetch(`http://localhost:5000/verify/${user.email}`, {
+            method: 'PUT',
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                refetch()
+            })
+    }
     return (
         <div className="overflow-x-auto">
             <table className="table w-full">
@@ -34,7 +45,9 @@ const AllSellers = () => {
                                     <td>{user.email}</td>
                                     <td>{user.role}</td>
                                     <td><button className='btn btn-accent btn-sm'>Make Admin</button></td>
-                                    <td><button className='btn btn-primary btn-sm'>Verify</button></td>
+                                    <td><button onClick={() => {
+                                        handleVerification(user)
+                                    }} className={user?.verified ? 'btn btn-primary btn-sm btn-disabled' : 'btn btn-primary btn-sm'}>Verify</button></td>
                                     <td>
                                         <button className='btn btn-secondary btn-sm '>DELETE</button>
                                     </td>
