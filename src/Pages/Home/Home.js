@@ -24,15 +24,8 @@ const Home = () => {
 
     let [closeModalState, setCloseModalDataState] = useState(true)
     const closeModal = () => {
+        console.log(closeModalState)
         toast.success('Product has been booked successfully')
-
-        // fetch('http://localhost:5000/bookings', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(bookingData),
-        // })
         setCloseModalDataState(!closeModal)
     }
 
@@ -51,7 +44,7 @@ const Home = () => {
                             <Sidebar></Sidebar>
                         </div>
                         {/* grid lg:grid-cols-3 grid-cols-2 grid-flow-row-dense gap-10 */}
-                        <div className='flex flex-row flex-wrap justify-between'>
+                        <div className='flex flex-row flex-wrap md:justify-center sm:justify-center lg:justify-between'>
 
                             {
                                 products?.map((product, index) => <Card

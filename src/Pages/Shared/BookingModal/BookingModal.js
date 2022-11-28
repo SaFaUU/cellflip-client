@@ -12,6 +12,7 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
     const { register, handleSubmit } = useForm();
 
     const handleBook = (data) => {
+        console.log(data)
 
         const bookingData = {
             img_url: modalData.img_url,
@@ -21,11 +22,12 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
             buyerEmail: data.email,
             buyerPhone: data.buyerPhone,
             meetLocation: data.meetingLocation,
+            productId: modalData._id,
             sellerMail: modalData.sellerMail,
             paid: false,
         }
 
-        if (Object.keys(bookingData).length === 9) {
+        if (Object.keys(bookingData).length === 10) {
             setBookingData(bookingData)
             fetch('http://localhost:5000/bookings', {
                 method: 'POST',
@@ -93,7 +95,7 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
                                     <input {...register("meetingLocation")} placeholder='Meeting Location' className="input input-bordered" type='text' />
                                 </div>
                                 <div className="modal-action mt-5 flex">
-                                    <button className="btn btn-primary">Submit</button>
+                                    <input type='submit' value='submit' className="btn btn-primary" />
                                     <label htmlFor="bookingModal" className="btn btn-primary" >Cancel</label>
                                 </div>
                             </form>

@@ -47,13 +47,14 @@ export const router = createBrowserRouter([
                 element: <Blog></Blog>
             },
             {
-                path: '/payment',
-                element: <UserRoute><PaymentPage></PaymentPage></UserRoute>
+                path: '/payment/:id',
+                element: <UserRoute><PaymentPage></PaymentPage></UserRoute>,
+                loader: ({ params }) => fetch(`http://localhost:5000/booking/${params.id}`)
             },
             {
                 path: '/category/:id',
                 element: <UserRoute><CategoryPage></CategoryPage></UserRoute>,
-                loader: ({ params }) => fetch()
+                loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`)
             },
             {
                 path: '/dashboard',

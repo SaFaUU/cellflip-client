@@ -1,7 +1,7 @@
 import React from 'react';
 import toast from 'react-hot-toast';
 
-const Card = ({ product, handleModal, setCloseModalDataState }) => {
+const CategoryCard = ({ product, handleModal, setCloseModalDataState }) => {
     setCloseModalDataState(true)
     const { productName, img_url, description, price, date } = product;
     const handleReport = (product) => {
@@ -16,7 +16,7 @@ const Card = ({ product, handleModal, setCloseModalDataState }) => {
             })
     }
     return (
-        <div className="card lg:w-[380px] w-full bg-base-100 shadow-lg mb-10 flex mx-10 lg:mx-0">
+        <div className="card lg:w-[380px] w-full bg-base-100 shadow-lg mb-10 flex lg:mx-10">
             <figure><img src={img_url} alt="Shoes" className='h-96' /></figure>
             <div className="card-body">
                 <h2 className="card-title text-xl font-bold">{productName}</h2>
@@ -37,4 +37,4 @@ const Card = ({ product, handleModal, setCloseModalDataState }) => {
     );
 };
 
-export default Card;
+export default CategoryCard;
