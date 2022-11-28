@@ -5,7 +5,11 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
     const [categories, setCategories] = useState([])
     useEffect(() => {
-        axios.get('http://localhost:5000/categories')
+        axios.get('http://localhost:5000/categories', {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(data => {
                 // console.log(data.data);
                 setCategories(data.data)

@@ -13,6 +13,7 @@ const Navbar = () => {
         logOut()
             .then(() => {
                 toast.success('You have signed out');
+                localStorage.clear()
                 navigate('/');
 
             })
@@ -21,7 +22,7 @@ const Navbar = () => {
     const menuItems = <>
         <li className='rounded-xl btn btn-ghost'><Link to='/'>Home</Link></li>
         {
-            user?.uid && <>
+            user?.email && <>
                 {
                     userRole === 'admin' && <li className='rounded-xl btn btn-ghost'><Link to='/dashboard/all-sellers'>Dashboard</Link></li>
                 }

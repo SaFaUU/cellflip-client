@@ -17,14 +17,6 @@ const CategoryPage = () => {
     let [closeModalState, setCloseModalDataState] = useState(true)
     const closeModal = () => {
         toast.success('Product has been booked successfully')
-
-        // fetch('http://localhost:5000/bookings', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(bookingData),
-        // })
         setCloseModalDataState(!closeModal)
     }
     return (

@@ -15,6 +15,7 @@ const CheckoutForm = ({ bookingData }) => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
+                authorization: `bearer ${localStorage.getItem('token')}`,
             },
             body: JSON.stringify({ price }),
         })
@@ -95,7 +96,7 @@ const CheckoutForm = ({ bookingData }) => {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',
-                    // authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+                    authorization: `bearer ${localStorage.getItem('token')}`,
                 },
                 body: JSON.stringify(payment)
             })

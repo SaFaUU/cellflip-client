@@ -11,7 +11,11 @@ import Sidebar from './Sidebar';
 const Home = () => {
     const { data: products, refetch } = useQuery({
         queryKey: ['allProducts'],
-        queryFn: () => fetch('http://localhost:5000/products')
+        queryFn: () => fetch('http://localhost:5000/products', {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(res => res.json())
     })
     const [modalData, setModalData] = useState({})

@@ -4,7 +4,11 @@ import React from 'react';
 const AllBuyers = () => {
     const { data: users } = useQuery({
         queryKey: ['buyers'],
-        queryFn: () => fetch('http://localhost:5000/user?role=user')
+        queryFn: () => fetch('http://localhost:5000/user?role=user', {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(res => res.json())
     })
     return (

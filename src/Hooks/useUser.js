@@ -5,7 +5,12 @@ const useUser = (email) => {
     const [dbloading, setDbLoading] = useState(true)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/user/${email}`)
+        fetch(`http://localhost:5000/user/${email}`, {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+
+        })
             .then(res => res.json())
             .then(data => {
                 setDbUser(data);

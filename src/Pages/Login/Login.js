@@ -17,6 +17,24 @@ const Login = () => {
                 const user = result.user;
                 console.log(user)
                 toast.success(`Welcome to CellFlip User`)
+                const currentUser = {
+                    email: user.email,
+                }
+                //get jwt token
+                fetch('http://localhost:5000/jwt', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(currentUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        localStorage.setItem('token', data.token)
+
+                    })
+
                 navigate('/')
             })
             .catch(err => console.error(err))
@@ -28,8 +46,6 @@ const Login = () => {
                 console.log(user)
                 const userData = {
                     email: user.email,
-                    role: 'user',
-                    name: user.displayName,
                 }
                 toast.success(`Welcome ${user.displayName}`)
                 if (user && user?.uid) {
@@ -43,6 +59,24 @@ const Login = () => {
                         .then(res => res.json())
                         .then(data => {
                             console.log(data)
+                            const currentUser = {
+                                email: user.email,
+                            }
+                            fetch('http://localhost:5000/jwt', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify(currentUser)
+                            })
+                                .then(res => res.json())
+                                .then(data => {
+                                    console.log(data);
+                                    localStorage.setItem('token', data.token)
+
+                                })
+
+
                             navigate('/')
                         })
                 }

@@ -4,13 +4,20 @@ import React from 'react';
 const AllSellers = () => {
     const { data: users, refetch } = useQuery({
         queryKey: ['sellers'],
-        queryFn: () => fetch('http://localhost:5000/user?role=seller')
+        queryFn: () => fetch('http://localhost:5000/user?role=seller', {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(res => res.json())
     })
     const handleVerification = (user) => {
         console.log(user)
         fetch(`http://localhost:5000/verify/${user.email}`, {
             method: 'PUT',
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
         })
             .then(res => res.json())
             .then(data => {

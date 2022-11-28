@@ -18,13 +18,20 @@ const MyProducts = () => {
     // }, [user, products])
     const { data: products = [], refetch, isLoading } = useQuery({
         queryKey: ['my-products', user?.email],
-        queryFn: () => fetch(`http://localhost:5000/my-products/${user?.email}`)
+        queryFn: () => fetch(`http://localhost:5000/my-products/${user?.email}`, {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(res => res.json())
     })
 
     const handleDelete = (product) => {
         fetch(`http://localhost:5000/products/${product._id}`, {
-            method: 'DELETE'
+            method: 'DELETE',
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
         })
             .then(res => res.json())
             .then(data => {
@@ -40,7 +47,8 @@ const MyProducts = () => {
         fetch(`http://localhost:5000/my-products/${product._id}`, {
             method: 'PUT',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                authorization: `bearer ${localStorage.getItem('token')}`,
             },
             body: JSON.stringify(product)
         })
@@ -79,7 +87,7 @@ const MyProducts = () => {
                 </thead>
                 <tbody>
                     {
-                        products?.map((product, index) => {
+                        products.length && products?.map((product, index) => {
                             return (
                                 <tr
                                     key={index}
@@ -89,7 +97,7 @@ const MyProducts = () => {
                                     <td>{product.productName}</td>
                                     <td>{product.date}</td>
                                     <td>{product.price}BDT</td>
-                                    <td>{product.availability ? 'available' : 'Sold'}</td>
+                                    <td>{product.availability}</td>
                                     <td><button onClick={() => {
                                         handleAdvertise(product)
                                         product.advertiseEnable = !product.advertiseEnable

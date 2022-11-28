@@ -4,12 +4,19 @@ import React from 'react';
 const ReportedItems = () => {
     const { data: reportItems, refetch } = useQuery({
         queryKey: ['reported-items'],
-        queryFn: () => fetch('http://localhost:5000/report')
+        queryFn: () => fetch('http://localhost:5000/report', {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(res => res.json())
     })
     const handleDelete = (product) => {
         fetch(`http://localhost:5000/products/${product._id}`, {
-            method: 'DELETE'
+            method: 'DELETE',
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
         })
             .then(res => res.json())
             .then(data => {

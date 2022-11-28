@@ -8,6 +8,9 @@ const Card = ({ product, handleModal, setCloseModalDataState }) => {
         console.log(product)
         fetch(`http://localhost:5000/report/${product._id}`, {
             method: 'PUT',
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
         })
             .then(response => response.json())
             .then(data => {

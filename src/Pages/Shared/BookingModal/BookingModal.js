@@ -33,6 +33,7 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    authorization: `bearer ${localStorage.getItem('token')}`,
                 },
                 body: JSON.stringify(bookingData),
             })

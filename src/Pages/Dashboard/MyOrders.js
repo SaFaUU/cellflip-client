@@ -10,7 +10,11 @@ const MyOrders = () => {
 
     const { data: products, refetch } = useQuery({
         queryKey: ['myorders'],
-        queryFn: () => fetch(`http://localhost:5000/my-orders?email=${user?.email}`)
+        queryFn: () => fetch(`http://localhost:5000/my-orders?email=${user?.email}`, {
+            headers: {
+                authorization: `bearer ${localStorage.getItem('token')}`,
+            }
+        })
             .then(res => res.json())
     })
     if (loading) {
@@ -26,9 +30,9 @@ const MyOrders = () => {
                         <div className='flex my-2 justify-between text-white font-bold'>
                             <div className="btn btn-success py-3 px-2 grow mr-2 text-white">{product.price}BDT</div>
                             {product?.paid ?
-                                <Link to={`/payment/${product?.productId}`} className="btn btn-primary py-3 px-2 grow text-white btn-disabled" >PAYS</Link>
+                                <Link to={`/payment/${product?.productId}`} className="btn btn-primary py-3 px-2 grow text-white btn-disabled" >PAID</Link>
                                 :
-                                <Link to={`/payment/${product?.productId}`} className="btn btn-primary py-3 px-2 grow text-white">PAY</Link>
+                                <Link to={`/payment/${product?.productId}`} className="btn btn-primary py-3 px-2 grow text-white">PAY NOW</Link>
                             }
                         </div>
                     </div>

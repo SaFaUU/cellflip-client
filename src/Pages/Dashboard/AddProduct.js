@@ -53,12 +53,14 @@ const AddProduct = () => {
                         purchaseYear: data.purchaseYear,
                         availability: "available",
                         reported: false,
+                        originalPrice: data.originalPrice,
                     }
                     console.log(productToAdd);
                     fetch('http://localhost:5000/products', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
+                            authorization: `bearer ${localStorage.getItem('token')}`,
                         },
                         body: JSON.stringify(productToAdd),
                     })
@@ -115,9 +117,15 @@ const AddProduct = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Price</span>
+                                    <span className="label-text">Resale Price</span>
                                 </label>
                                 <input {...register("price")} placeholder="Price" className="input input-bordered" type='text' />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Original Price</span>
+                                </label>
+                                <input {...register("originalPrice")} placeholder="Original Price" className="input input-bordered" type='text' />
                             </div>
                             <div className="form-control">
                                 <label className="label">
