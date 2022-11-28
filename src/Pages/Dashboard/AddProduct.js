@@ -54,6 +54,8 @@ const AddProduct = () => {
                         availability: "available",
                         reported: false,
                         originalPrice: data.originalPrice,
+                        verifiedSeller: false,
+                        sellerImg: dbUser?.img_url,
                     }
                     console.log(productToAdd);
                     fetch('http://localhost:5000/products', {

@@ -46,9 +46,6 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
         }
 
     }
-    if (loading || dbloading) {
-        return <Loader></Loader>
-    }
 
     return (
         <div>

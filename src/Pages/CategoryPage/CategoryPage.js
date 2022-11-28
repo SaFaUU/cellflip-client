@@ -32,13 +32,14 @@ const CategoryPage = () => {
                         setCloseModalDataState={setCloseModalDataState}
                     ></CategoryCard>)
                 }
+
                 {closeModalState && <BookingModal
                     modalData={modalData}
                     closeModal={closeModal}
                     setBookingData={setBookingData}
                 ></BookingModal>}
-
             </div>
+
         </div>
     );
 };

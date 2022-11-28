@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const SignUp = () => {
     const { createUser } = useContext(AuthContext)
     const { register, handleSubmit } = useForm();
+    const navigate = useNavigate()
     const handleRegister = (data) => {
         console.log(data)
         createUser(data.email, data.password)
@@ -23,13 +24,32 @@ const SignUp = () => {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
-                            authorization: `bearer ${localStorage.getItem('token')}`,
                         },
                         body: JSON.stringify(userData),
                     })
                         .then(res => res.json())
-                        .then(data => console.log(data))
+                        .then(data => {
+                            console.log(data)
+                        })
                 }
+                const currentUser = {
+                    email: user?.email,
+                }
+                fetch('http://localhost:5000/jwt', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(currentUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        localStorage.setItem('token', data.token)
+
+                    })
+                navigate('/')
+
             })
             .catch(err => console.error(err))
     }

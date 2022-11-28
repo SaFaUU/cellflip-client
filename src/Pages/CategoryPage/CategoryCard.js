@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 
 const CategoryCard = ({ product, handleModal, setCloseModalDataState }) => {
     setCloseModalDataState(true)
-    const { productName, img_url, description, price, date, location, originalPrice, purchaseYear } = product;
+    const { productName, img_url, price, date, location, originalPrice, purchaseYear, sellerName, sellerMail, verifiedSeller } = product;
     const handleReport = (product) => {
         console.log(product)
         fetch(`http://localhost:5000/report/${product._id}`, {
@@ -38,15 +38,27 @@ const CategoryCard = ({ product, handleModal, setCloseModalDataState }) => {
                     }}>Book Now</label>
                     <button onClick={() => handleReport(product)} className="btn btn-secondary text-md text-white font-bold w-1/4 px-10">Report</button>
                 </div>
+                <div className='flex mt-5 align-middle items-center'>
 
-            </div>
-            <div>
-                <div className="avatar online">
-                    <div className="w-24 rounded-full">
-                        <img src="https://placeimg.com/192/192/people" />
+                    <div className='w-1/5'>
+                        {
+                            verifiedSeller &&
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Sign-check-icon.png" alt="" className='w-8 absolute z-10 bottom-20 right-75' />
+                        }
+                        <div className="avatar">
+                            <div className="w-auto rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                <img src="https://placeimg.com/192/192/people" alt='' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='ml-5 text-left pb-2'>
+                        <h2 className='font-bold text-xl mb-0'>{sellerName}</h2>
+                        <p className='text-sm mt-0'>{sellerMail}</p>
+                        <p className='text-sm mt-0'>Posted: {date}</p>
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

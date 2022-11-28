@@ -8,7 +8,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 4̶.̶ U̶s̶e̶ t̶h̶e̶ E̶n̶v̶i̶r̶o̶n̶m̶e̶n̶t̶ v̶a̶r̶i̶a̶b̶l̶e̶ o̶n̶ b̶o̶t̶h̶ t̶h̶e̶ c̶l̶i̶e̶n̶t̶ (̶f̶i̶r̶e̶b̶a̶s̶e̶ c̶o̶n̶f̶i̶g̶)̶ a̶n̶d̶ s̶e̶r̶v̶e̶r̶ s̶i̶d̶e̶ (̶M̶o̶n̶g̶o̶D̶B̶ c̶r̶e̶d̶e̶n̶t̶i̶a̶l̶s̶,̶ A̶c̶c̶e̶s̶s̶ t̶o̶k̶e̶n̶ s̶e̶c̶r̶e̶t̶,̶ s̶t̶r̶i̶p̶e̶,̶ e̶t̶c̶.̶)̶.̶ U̶s̶e̶ t̶h̶e̶ .̶g̶i̶t̶i̶g̶n̶o̶r̶e̶ f̶i̶l̶e̶ o̶n̶ t̶h̶e̶ s̶e̶r̶v̶e̶r̶ s̶i̶d̶e̶.̶
 
-5. It is important to note that your UX design should be good. For example, suppose a user does not see data when they visit a route, does not see the ad after posting the advertisement without reloading the site, or gets logged out when visiting a private route right after signing up. In that case, etc., then **you may lose a significant mark for that**.
+5̶.̶ I̶t̶ i̶s̶ i̶m̶p̶o̶r̶t̶a̶n̶t̶ t̶o̶ n̶o̶t̶e̶ t̶h̶a̶t̶ y̶o̶u̶r̶ U̶X̶ d̶e̶s̶i̶g̶n̶ s̶h̶o̶u̶l̶d̶ b̶e̶ g̶o̶o̶d̶.̶ F̶o̶r̶ e̶x̶a̶m̶p̶l̶e̶,̶ s̶u̶p̶p̶o̶s̶e̶ a̶ u̶s̶e̶r̶ d̶o̶e̶s̶ n̶o̶t̶ s̶e̶e̶ d̶a̶t̶a̶ w̶h̶e̶n̶ t̶h̶e̶y̶ v̶i̶s̶i̶t̶ a̶ r̶o̶u̶t̶e̶,̶ d̶o̶e̶s̶ n̶o̶t̶ s̶e̶e̶ t̶h̶e̶ a̶d̶ a̶f̶t̶e̶r̶ p̶o̶s̶t̶i̶n̶g̶ t̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶m̶e̶n̶t̶ w̶i̶t̶h̶o̶u̶t̶ r̶e̶l̶o̶a̶d̶i̶n̶g̶ t̶h̶e̶ s̶i̶t̶e̶,̶ o̶r̶ g̶e̶t̶s̶ l̶o̶g̶g̶e̶d̶ o̶u̶t̶ w̶h̶e̶n̶ v̶i̶s̶i̶t̶i̶n̶g̶ a̶ p̶r̶i̶v̶a̶t̶e̶ r̶o̶u̶t̶e̶ r̶i̶g̶h̶t̶ a̶f̶t̶e̶r̶ s̶i̶g̶n̶i̶n̶g̶ u̶p̶.̶ I̶n̶ t̶h̶a̶t̶ c̶a̶s̶e̶,̶ e̶t̶c̶.̶,̶ t̶h̶e̶n̶ *̶*̶y̶o̶u̶ m̶a̶y̶ l̶o̶s̶e̶ a̶ s̶i̶g̶n̶i̶f̶i̶c̶a̶n̶t̶ m̶a̶r̶k̶ f̶o̶r̶ t̶h̶a̶t̶*̶*̶.̶
 
 ## Main Requirements
 
@@ -44,17 +44,17 @@ Your website has to be related to selling used (second-hand products) with the a
 
 1̶2̶.̶ I̶n̶ t̶h̶e̶ *̶*̶A̶l̶l̶ S̶e̶l̶l̶e̶r̶s̶,̶*̶*̶ t̶h̶e̶ A̶d̶m̶i̶n̶ w̶i̶l̶l̶ s̶e̶e̶ t̶h̶e̶ s̶e̶l̶l̶e̶r̶s̶.̶ O̶n̶ t̶h̶e̶ *̶*̶A̶l̶l̶ B̶u̶y̶e̶r̶s̶*̶*̶ r̶o̶u̶t̶e̶,̶ t̶h̶e̶ A̶d̶m̶i̶n̶ c̶a̶n̶ s̶e̶e̶ a̶l̶l̶ t̶h̶e̶ B̶u̶y̶e̶r̶s̶.̶ I̶f̶ t̶h̶e̶ A̶d̶m̶i̶n̶ w̶a̶n̶t̶s̶,̶ h̶e̶ c̶a̶n̶ d̶e̶l̶e̶t̶e̶ a̶n̶y̶ b̶u̶y̶e̶r̶s̶ o̶r̶ s̶e̶l̶l̶e̶r̶s̶.̶
 
-13. On the navbar, there will be a Blogs route. This will be an open route (anyone visiting your website will see it). You will have to answer all the questions, and they are
+1̶3̶.̶ O̶n̶ t̶h̶e̶ n̶a̶v̶b̶a̶r̶,̶ t̶h̶e̶r̶e̶ w̶i̶l̶l̶ b̶e̶ a̶ B̶l̶o̶g̶s̶ r̶o̶u̶t̶e̶.̶ T̶h̶i̶s̶ w̶i̶l̶l̶ b̶e̶ a̶n̶ o̶p̶e̶n̶ r̶o̶u̶t̶e̶ (̶a̶n̶y̶o̶n̶e̶ v̶i̶s̶i̶t̶i̶n̶g̶ y̶o̶u̶r̶ w̶e̶b̶s̶i̶t̶e̶ w̶i̶l̶l̶ s̶e̶e̶ i̶t̶)̶.̶ Y̶o̶u̶ w̶i̶l̶l̶ h̶a̶v̶e̶ t̶o̶ a̶n̶s̶w̶e̶r̶ a̶l̶l̶ t̶h̶e̶ q̶u̶e̶s̶t̶i̶o̶n̶s̶,̶ a̶n̶d̶ t̶h̶e̶y̶ a̶r̶e̶
 
-      13.1 What are the different ways to manage a state in a React application?
+      1̶3̶.̶1̶ W̶h̶a̶t̶ a̶r̶e̶ t̶h̶e̶ d̶i̶f̶f̶e̶r̶e̶n̶t̶ w̶a̶y̶s̶ t̶o̶ m̶a̶n̶a̶g̶e̶ a̶ s̶t̶a̶t̶e̶ i̶n̶ a̶ R̶e̶a̶c̶t̶ a̶p̶p̶l̶i̶c̶a̶t̶i̶o̶n̶?̶
   
-      13.2 How does prototypical inheritance work?
+      1̶3̶.̶2̶ H̶o̶w̶ d̶o̶e̶s̶ p̶r̶o̶t̶o̶t̶y̶p̶i̶c̶a̶l̶ i̶n̶h̶e̶r̶i̶t̶a̶n̶c̶e̶ w̶o̶r̶k̶?̶
   
-      13.3 What is a unit test? Why should we write unit tests?
+      1̶3̶.̶3̶ W̶h̶a̶t̶ i̶s̶ a̶ u̶n̶i̶t̶ t̶e̶s̶t̶?̶ W̶h̶y̶ s̶h̶o̶u̶l̶d̶ w̶e̶ w̶r̶i̶t̶e̶ u̶n̶i̶t̶ t̶e̶s̶t̶s̶?̶
   
-      13.4 React vs. Angular vs. Vue?
+      1̶3̶.̶4̶ R̶e̶a̶c̶t̶ v̶s̶.̶ A̶n̶g̶u̶l̶a̶r̶ v̶s̶.̶ V̶u̶e̶?̶
 
-14. Create a meaningful 404 page (not found page). Add a meaningful image on the 404 page.
+1̶4̶.̶ C̶r̶e̶a̶t̶e̶ a̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ 4̶0̶4̶ p̶a̶g̶e̶ (̶n̶o̶t̶ f̶o̶u̶n̶d̶ p̶a̶g̶e̶)̶.̶ A̶d̶d̶ a̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ i̶m̶a̶g̶e̶ o̶n̶ t̶h̶e̶ 4̶0̶4̶ p̶a̶g̶e̶.̶
 
 1̶5̶.̶ U̶s̶e̶ a̶ d̶a̶t̶a̶b̶a̶s̶e̶ t̶o̶ s̶t̶o̶r̶e̶ i̶n̶f̶o̶r̶m̶a̶t̶i̶o̶n̶.̶ I̶t̶ c̶o̶u̶l̶d̶ b̶e̶ M̶o̶n̶g̶o̶D̶B̶ a̶t̶l̶a̶s̶ o̶r̶ a̶n̶y̶ o̶t̶h̶e̶r̶ d̶a̶t̶a̶b̶a̶s̶e̶.̶ S̶a̶v̶e̶ t̶h̶e̶ u̶s̶e̶r̶s̶ i̶n̶ t̶h̶e̶ d̶a̶t̶a̶b̶a̶s̶e̶
 
@@ -62,7 +62,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 1. Your Readme file for the client-side repo should have details about your project's features and functionalities in bullet points(at least five bullet points) and your live link. Adding a meaningful readme file for the server-side repo is optional.
 
-2. At least 16 meaningful GitHub commits for the client side and 9 meaningful commits for the server-side repository. Your code should be clean and organized. Comments should be added where necessary
+2̶.̶ A̶t̶ l̶e̶a̶s̶t̶ 1̶6̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ G̶i̶t̶H̶u̶b̶ c̶o̶m̶m̶i̶t̶s̶ f̶o̶r̶ t̶h̶e̶ c̶l̶i̶e̶n̶t̶ s̶i̶d̶e̶ a̶n̶d̶ 9̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ c̶o̶m̶m̶i̶t̶s̶ f̶o̶r̶ t̶h̶e̶ s̶e̶r̶v̶e̶r̶-̶s̶i̶d̶e̶ r̶e̶p̶o̶s̶i̶t̶o̶r̶y̶.̶ Y̶o̶u̶r̶ c̶o̶d̶e̶ s̶h̶o̶u̶l̶d̶ b̶e̶ c̶l̶e̶a̶n̶ a̶n̶d̶ o̶r̶g̶a̶n̶i̶z̶e̶d̶.̶ C̶o̶m̶m̶e̶n̶t̶s̶ s̶h̶o̶u̶l̶d̶ b̶e̶ a̶d̶d̶e̶d̶ w̶h̶e̶r̶e̶ n̶e̶c̶e̶s̶s̶a̶r̶y̶
 
 3̶.̶ A̶d̶d̶ a̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ f̶a̶v̶i̶c̶o̶n̶.̶ If data is loading, a spinner will be displayed. When you are loading data by using a loader, make sure you have added a route.
 
@@ -70,19 +70,19 @@ Your website has to be related to selling used (second-hand products) with the a
 
    I̶f̶ y̶o̶u̶ h̶a̶v̶e̶ i̶m̶p̶l̶e̶m̶e̶n̶t̶e̶d̶ t̶h̶e̶ "̶r̶e̶p̶o̶r̶t̶ t̶o̶ a̶d̶m̶i̶n̶"̶ f̶e̶a̶t̶u̶r̶e̶,̶ s̶h̶o̶w̶ t̶h̶e̶ r̶e̶p̶o̶r̶t̶e̶d̶ i̶t̶e̶m̶s̶ i̶n̶ t̶h̶e̶ a̶d̶m̶i̶n̶ d̶a̶s̶h̶b̶o̶a̶r̶d̶ i̶n̶ a̶ s̶e̶p̶a̶r̶a̶t̶e̶ r̶o̶u̶t̶e̶,̶ "̶R̶e̶p̶o̶r̶t̶e̶d̶ I̶t̶e̶m̶s̶"̶ (̶t̶i̶p̶s̶:̶ c̶r̶e̶a̶t̶e̶ a̶ s̶e̶p̶a̶r̶a̶t̶e̶ c̶o̶l̶l̶e̶c̶t̶i̶o̶n̶ f̶o̶r̶ t̶h̶e̶ w̶i̶s̶h̶ l̶i̶s̶t̶ a̶n̶d̶ f̶i̶l̶t̶e̶r̶ b̶y̶ u̶s̶e̶r̶ e̶m̶a̶i̶l̶ a̶d̶d̶r̶e̶s̶s̶)̶.̶ A̶n̶ a̶d̶m̶i̶n̶ w̶i̶l̶l̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ d̶e̶l̶e̶t̶e̶ a̶ r̶e̶p̶o̶r̶t̶e̶d̶ i̶t̶e̶m̶.̶ 
 
-5. Implement the basic version of the JWT token for email/password-based authentication. Upon social login, registration, and login, you will create a JWT token and store it on the client side. You will send the token for my orders, buyers, and advertisements routes and verify the user.
+5̶.̶ I̶m̶p̶l̶e̶m̶e̶n̶t̶ t̶h̶e̶ b̶a̶s̶i̶c̶ v̶e̶r̶s̶i̶o̶n̶ o̶f̶ t̶h̶e̶ J̶W̶T̶ t̶o̶k̶e̶n̶ f̶o̶r̶ e̶m̶a̶i̶l̶/̶p̶a̶s̶s̶w̶o̶r̶d̶-̶b̶a̶s̶e̶d̶ a̶u̶t̶h̶e̶n̶t̶i̶c̶a̶t̶i̶o̶n̶.̶ U̶p̶o̶n̶ s̶o̶c̶i̶a̶l̶ l̶o̶g̶i̶n̶,̶ r̶e̶g̶i̶s̶t̶r̶a̶t̶i̶o̶n̶,̶ a̶n̶d̶ l̶o̶g̶i̶n̶,̶ y̶o̶u̶ w̶i̶l̶l̶ c̶r̶e̶a̶t̶e̶ a̶ J̶W̶T̶ t̶o̶k̶e̶n̶ a̶n̶d̶ s̶t̶o̶r̶e̶ i̶t̶ o̶n̶ t̶h̶e̶ c̶l̶i̶e̶n̶t̶ s̶i̶d̶e̶.̶ Y̶o̶u̶ w̶i̶l̶l̶ s̶e̶n̶d̶ t̶h̶e̶ t̶o̶k̶e̶n̶ f̶o̶r̶ m̶y̶ o̶r̶d̶e̶r̶s̶,̶ b̶u̶y̶e̶r̶s̶,̶ a̶n̶d̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶m̶e̶n̶t̶s̶ r̶o̶u̶t̶e̶s̶ a̶n̶d̶ v̶e̶r̶i̶f̶y̶ t̶h̶e̶ u̶s̶e̶r̶.̶
 
 6. The **all-sellers** route will have a name, email address, delete button, and verify button. Admin will be able to verify a seller. When clicked on the verify button, the seller's status will change from unverified to verified(show a blue tick when the seller is verified), and this status will be shown on the products added by a verified seller.
 
-7. The **My Orders** route will have a table/cards. Each card/ table row will be an order having an image, title, price, and a pay button. On clicking the pay button, to take the user the payment page with fields for card details will pop up, or the user will be taken to a route where there will be a form for filling up card details. Save the payment information in the database and inform the user via a modal/toast. Don't forget to update the button text to "paid" after payment. Please note, payment will be done by Stripe. 
+7̶.̶ T̶h̶e̶ *̶*̶M̶y̶ O̶r̶d̶e̶r̶s̶*̶*̶ r̶o̶u̶t̶e̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ t̶a̶b̶l̶e̶/̶c̶a̶r̶d̶s̶.̶ E̶a̶c̶h̶ c̶a̶r̶d̶/̶ t̶a̶b̶l̶e̶ r̶o̶w̶ w̶i̶l̶l̶ b̶e̶ a̶n̶ o̶r̶d̶e̶r̶ h̶a̶v̶i̶n̶g̶ a̶n̶ i̶m̶a̶g̶e̶,̶ t̶i̶t̶l̶e̶,̶ p̶r̶i̶c̶e̶,̶ a̶n̶d̶ a̶ p̶a̶y̶ b̶u̶t̶t̶o̶n̶.̶ O̶n̶ c̶l̶i̶c̶k̶i̶n̶g̶ t̶h̶e̶ p̶a̶y̶ b̶u̶t̶t̶o̶n̶,̶ t̶o̶ t̶a̶k̶e̶ t̶h̶e̶ u̶s̶e̶r̶ t̶h̶e̶ p̶a̶y̶m̶e̶n̶t̶ p̶a̶g̶e̶ w̶i̶t̶h̶ f̶i̶e̶l̶d̶s̶ f̶o̶r̶ c̶a̶r̶d̶ d̶e̶t̶a̶i̶l̶s̶ w̶i̶l̶l̶ p̶o̶p̶ u̶p̶,̶ o̶r̶ t̶h̶e̶ u̶s̶e̶r̶ w̶i̶l̶l̶ b̶e̶ t̶a̶k̶e̶n̶ t̶o̶ a̶ r̶o̶u̶t̶e̶ w̶h̶e̶r̶e̶ t̶h̶e̶r̶e̶ w̶i̶l̶l̶ b̶e̶ a̶ f̶o̶r̶m̶ f̶o̶r̶ f̶i̶l̶l̶i̶n̶g̶ u̶p̶ c̶a̶r̶d̶ d̶e̶t̶a̶i̶l̶s̶.̶ S̶a̶v̶e̶ t̶h̶e̶ p̶a̶y̶m̶e̶n̶t̶ i̶n̶f̶o̶r̶m̶a̶t̶i̶o̶n̶ i̶n̶ t̶h̶e̶ d̶a̶t̶a̶b̶a̶s̶e̶ a̶n̶d̶ i̶n̶f̶o̶r̶m̶ t̶h̶e̶ u̶s̶e̶r̶ v̶i̶a̶ a̶ m̶o̶d̶a̶l̶/̶t̶o̶a̶s̶t̶.̶ D̶o̶n̶'̶t̶ f̶o̶r̶g̶e̶t̶ t̶o̶ u̶p̶d̶a̶t̶e̶ t̶h̶e̶ b̶u̶t̶t̶o̶n̶ t̶e̶x̶t̶ t̶o̶ "̶p̶a̶i̶d̶"̶ a̶f̶t̶e̶r̶ p̶a̶y̶m̶e̶n̶t̶.̶ P̶l̶e̶a̶s̶e̶ n̶o̶t̶e̶,̶ p̶a̶y̶m̶e̶n̶t̶ w̶i̶l̶l̶ b̶e̶ d̶o̶n̶e̶ b̶y̶ S̶t̶r̶i̶p̶e̶.̶ 
 
-      Once an item is paid, it won't be displayed on the advertised item or on the category page. Only available items will be displayed to be purchased.
+      O̶n̶c̶e̶ a̶n̶ i̶t̶e̶m̶ i̶s̶ p̶a̶i̶d̶,̶ i̶t̶ w̶o̶n̶'̶t̶ b̶e̶ d̶i̶s̶p̶l̶a̶y̶e̶d̶ o̶n̶ t̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶ o̶r̶ o̶n̶ t̶h̶e̶ c̶a̶t̶e̶g̶o̶r̶y̶ p̶a̶g̶e̶.̶ O̶n̶l̶y̶ a̶v̶a̶i̶l̶a̶b̶l̶e̶ i̶t̶e̶m̶s̶ w̶i̶l̶l̶ b̶e̶ d̶i̶s̶p̶l̶a̶y̶e̶d̶ t̶o̶ b̶e̶ p̶u̶r̶c̶h̶a̶s̶e̶d̶.̶
 
 8̶.̶ U̶s̶e̶ r̶e̶a̶c̶t̶ q̶u̶e̶r̶y̶ f̶o̶r̶ a̶t̶ l̶e̶a̶s̶t̶ t̶w̶o̶ A̶P̶I̶ c̶a̶l̶l̶s̶.̶U̶s̶e̶ A̶x̶i̶o̶s̶ f̶o̶r̶ a̶t̶ l̶e̶a̶s̶t̶ o̶n̶e̶ A̶P̶I̶ c̶a̶l̶l̶
 
 9. Most likely framework will do it for you. However do not forget to make your entire website responsive. (It is ok if the table is not responsive.) please note, all the pages including dashboard will be responsive.
 
-10. Database collection names, routes, mongdb features/operators when needed, api naming convension and best practices.
+1̶0̶.̶ D̶a̶t̶a̶b̶a̶s̶e̶ c̶o̶l̶l̶e̶c̶t̶i̶o̶n̶ n̶a̶m̶e̶s̶,̶ r̶o̶u̶t̶e̶s̶,̶ m̶o̶n̶g̶d̶b̶ f̶e̶a̶t̶u̶r̶e̶s̶/̶o̶p̶e̶r̶a̶t̶o̶r̶s̶ w̶h̶e̶n̶ n̶e̶e̶d̶e̶d̶,̶ a̶p̶i̶ n̶a̶m̶i̶n̶g̶ c̶o̶n̶v̶e̶n̶s̶i̶o̶n̶ a̶n̶d̶ b̶e̶s̶t̶ p̶r̶a̶c̶t̶i̶c̶e̶s̶.̶
 
 ### Optional
 
