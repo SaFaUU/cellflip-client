@@ -55,7 +55,7 @@ const AddProduct = () => {
                         reported: false,
                         originalPrice: data.originalPrice,
                         verifiedSeller: false,
-                        sellerImg: dbUser?.img_url,
+                        sellerImg: dbUser?.img_url ? dbUser?.img_url : user?.photoURL,
                     }
                     console.log(productToAdd);
                     fetch('https://cellflip-server.vercel.app/products', {
