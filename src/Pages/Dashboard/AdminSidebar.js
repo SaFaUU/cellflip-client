@@ -14,7 +14,6 @@ const AdminSidebar = () => {
                     <li><Link to='add-categories'>Add Categories</Link></li>
                     <li><Link to='reported-items'>Reported Item</Link></li>
                 </ul>
-
             </div>
         </div>
     );
