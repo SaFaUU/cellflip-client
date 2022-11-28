@@ -1,9 +1,38 @@
-import React from 'react';
+import { useQuery } from '@tanstack/react-query';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const MyOrders = () => {
+    const { user, loading } = useContext(AuthContext)
+
+
+    const { data: products, refetch } = useQuery({
+        queryKey: ['myorders'],
+        queryFn: () => fetch(`http://localhost:5000/my-orders?email=${user?.email}`)
+            .then(res => res.json())
+    })
+
     return (
-        <div>
-            <h2>This is my orders</h2>
+        <div className='flex flex-row flex-wrap justify-between'>
+
+            {
+                products?.map((product, index) => <div key={index} className="card lg:w-[380px] w-full bg-base-100 shadow-lg mb-10 flex ">
+                    <figure><img src={product?.img_url} alt="Shoes" className='h-96' /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title text-xl font-bold">{product?.productName}</h2>
+                        <div className='flex my-2 justify-between text-white font-bold'>
+                            <div className="btn btn-success py-3 px-2 grow mr-2 text-white">{product.price}BDT</div>
+                            {product?.paid ?
+                                <Link to='payment' className="btn btn-primary py-3 px-2 grow text-white btn-disabled" >PAYS</Link>
+                                :
+                                <Link to='/payment' className="btn btn-primary py-3 px-2 grow text-white">PAY</Link>
+                            }
+                        </div>
+                    </div>
+                </div>)
+            }
+
         </div>
     );
 };

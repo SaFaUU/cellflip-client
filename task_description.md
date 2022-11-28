@@ -14,7 +14,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 1. Y̶o̶u̶r̶ h̶o̶m̶e̶p̶a̶g̶e̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ *̶*̶n̶a̶v̶b̶a̶r̶*̶*̶ ,̶ a̶ b̶a̶n̶n̶e̶r̶/̶s̶l̶i̶d̶e̶r̶,̶ A̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶,̶  s̶e̶c̶o̶n̶d̶-̶h̶a̶n̶d̶ *̶*̶p̶r̶o̶d̶u̶c̶t̶ c̶a̶t̶e̶g̶o̶r̶i̶e̶s̶*̶*̶ s̶e̶c̶t̶i̶o̶n̶ a̶n̶d̶ a̶ r̶e̶a̶l̶i̶s̶t̶i̶c̶ *̶*̶f̶o̶o̶t̶e̶r̶*̶*̶.̶
 
-2. Add **one** extra section on the home page. Make sure it is unique and relevant to your website.
+2̶.̶ A̶d̶d̶ *̶*̶o̶n̶e̶*̶*̶ e̶x̶t̶r̶a̶ s̶e̶c̶t̶i̶o̶n̶ o̶n̶ t̶h̶e̶ h̶o̶m̶e̶ p̶a̶g̶e̶.̶ M̶a̶k̶e̶ s̶u̶r̶e̶ i̶t̶ i̶s̶ u̶n̶i̶q̶u̶e̶ a̶n̶d̶ r̶e̶l̶e̶v̶a̶n̶t̶ t̶o̶ y̶o̶u̶r̶ w̶e̶b̶s̶i̶t̶e̶.̶
 
 3̶.̶ *̶*̶Y̶o̶u̶ w̶i̶l̶l̶ h̶a̶v̶e̶ t̶o̶ d̶e̶c̶i̶d̶e̶ w̶h̶a̶t̶ w̶o̶u̶l̶d̶ b̶e̶ t̶h̶e̶ c̶a̶t̶e̶g̶o̶r̶i̶e̶s̶ o̶f̶ t̶h̶e̶ s̶e̶c̶o̶n̶d̶-̶h̶a̶n̶d̶ p̶r̶o̶d̶u̶c̶t̶ y̶o̶u̶ h̶a̶v̶e̶ s̶e̶l̶e̶c̶t̶e̶d̶.̶*̶*̶ F̶o̶r̶ i̶n̶s̶t̶a̶n̶c̶e̶,̶ i̶f̶ y̶o̶u̶r̶ w̶e̶b̶s̶i̶t̶e̶ i̶s̶ a̶b̶o̶u̶t̶ s̶e̶c̶o̶n̶d̶-̶h̶a̶n̶d̶ f̶u̶r̶n̶i̶t̶u̶r̶e̶,̶ y̶o̶u̶ c̶a̶n̶ d̶i̶v̶i̶d̶e̶ y̶o̶u̶r̶ c̶a̶t̶e̶g̶o̶r̶i̶e̶s̶ i̶n̶t̶o̶ t̶h̶e̶ b̶e̶d̶r̶o̶o̶m̶,̶ k̶i̶t̶c̶h̶e̶n̶,̶ d̶i̶n̶i̶n̶g̶ r̶o̶o̶m̶,̶ e̶t̶c̶.̶;̶ i̶f̶ i̶t̶ i̶s̶ a̶b̶o̶u̶t̶ s̶e̶c̶o̶n̶d̶-̶h̶a̶n̶d̶ c̶a̶r̶,̶ y̶o̶u̶r̶ c̶a̶t̶e̶g̶o̶r̶i̶e̶s̶ c̶a̶n̶ b̶e̶ a̶ M̶i̶c̶r̶o̶b̶u̶s̶,̶ l̶u̶x̶u̶r̶y̶ c̶a̶r̶,̶ e̶l̶e̶c̶t̶i̶c̶ c̶a̶r̶,̶ e̶t̶c̶.̶ O̶r̶ y̶o̶u̶ c̶a̶n̶ c̶a̶t̶e̶g̶o̶r̶i̶z̶e̶ s̶e̶c̶o̶n̶d̶-̶h̶a̶n̶d̶ p̶r̶o̶d̶u̶c̶t̶s̶ u̶n̶d̶e̶r̶ b̶r̶a̶n̶d̶ n̶a̶m̶e̶s̶ i̶f̶ y̶o̶u̶ w̶a̶n̶t̶.̶ H̶o̶w̶e̶v̶e̶r̶,̶ m̶a̶k̶e̶ s̶u̶r̶e̶ i̶t̶ i̶s̶ r̶e̶l̶e̶v̶a̶n̶t̶.̶ Y̶o̶u̶ w̶i̶l̶l̶ n̶e̶e̶d̶ a̶t̶ l̶e̶a̶s̶t̶ 3̶ c̶a̶t̶e̶g̶o̶r̶i̶e̶s̶,̶ e̶a̶c̶h̶ w̶i̶t̶h̶ a̶t̶ l̶e̶a̶s̶t̶ 2̶ p̶r̶o̶d̶u̶c̶t̶s̶.̶
 
@@ -26,7 +26,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
       *̶*̶N̶o̶t̶e̶:̶*̶*̶ D̶o̶ n̶o̶t̶ a̶p̶p̶l̶y̶ e̶m̶a̶i̶l̶ v̶e̶r̶i̶f̶i̶c̶a̶t̶i̶o̶n̶ a̶s̶ i̶t̶ w̶i̶l̶l̶ b̶e̶ a̶n̶ i̶n̶c̶o̶n̶v̶e̶n̶i̶e̶n̶c̶e̶ f̶o̶r̶ t̶h̶e̶ e̶x̶a̶m̶i̶n̶e̶r̶.̶ I̶t̶ i̶s̶ i̶m̶p̶o̶r̶t̶a̶n̶t̶ f̶o̶r̶ t̶h̶e̶ e̶x̶a̶m̶i̶n̶e̶r̶ t̶o̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ c̶h̶e̶c̶k̶ y̶o̶u̶r̶ a̶u̶t̶h̶e̶n̶t̶i̶c̶a̶t̶i̶o̶n̶ w̶i̶t̶h̶o̶u̶t̶ a̶n̶y̶ h̶a̶s̶s̶l̶e̶.̶ I̶f̶ y̶o̶u̶ w̶a̶n̶t̶,̶ y̶o̶u̶ c̶a̶n̶ a̶d̶d̶ e̶m̶a̶i̶l̶ v̶e̶r̶i̶f̶i̶c̶a̶t̶i̶o̶n̶ a̶f̶t̶e̶r̶ g̶e̶t̶t̶i̶n̶g̶ t̶h̶e̶ a̶s̶s̶i̶g̶n̶m̶e̶n̶t̶ r̶e̶s̶u̶l̶t̶.̶
 
-7. If a user(buyer/seller/admin) is logged in, they will see **logout** (should be working) and another option on the header called Dashboard. The dashboard routes will change based on the users:
+7̶.̶ I̶f̶ a̶ u̶s̶e̶r̶(̶b̶u̶y̶e̶r̶/̶s̶e̶l̶l̶e̶r̶/̶a̶d̶m̶i̶n̶)̶ i̶s̶ l̶o̶g̶g̶e̶d̶ i̶n̶,̶ t̶h̶e̶y̶ w̶i̶l̶l̶ s̶e̶e̶ *̶*̶l̶o̶g̶o̶u̶t̶*̶*̶ (̶s̶h̶o̶u̶l̶d̶ b̶e̶ w̶o̶r̶k̶i̶n̶g̶)̶ a̶n̶d̶ a̶n̶o̶t̶h̶e̶r̶ o̶p̶t̶i̶o̶n̶ o̶n̶ t̶h̶e̶ h̶e̶a̶d̶e̶r̶ c̶a̶l̶l̶e̶d̶ D̶a̶s̶h̶b̶o̶a̶r̶d̶.̶ T̶h̶e̶ d̶a̶s̶h̶b̶o̶a̶r̶d̶ r̶o̶u̶t̶e̶s̶ w̶i̶l̶l̶ c̶h̶a̶n̶g̶e̶ b̶a̶s̶e̶d̶ o̶n̶ t̶h̶e̶ u̶s̶e̶r̶s̶:̶
 
       *̶*̶B̶u̶y̶e̶r̶s̶ w̶i̶l̶l̶ s̶e̶e̶:̶*̶*̶ M̶y̶ o̶r̶d̶e̶r̶s̶(̶s̶e̶e̶ b̶o̶n̶u̶s̶ r̶e̶q̶u̶i̶r̶e̶m̶e̶n̶t̶ 7̶)̶,̶
 
@@ -40,7 +40,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 1̶0̶.̶ T̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶ w̶i̶l̶l̶ a̶p̶p̶e̶a̶r̶ o̶n̶ t̶h̶e̶ h̶o̶m̶e̶ p̶a̶g̶e̶.̶ P̶l̶e̶a̶s̶e̶ n̶o̶t̶e̶ i̶f̶ t̶h̶e̶r̶e̶ a̶r̶e̶ n̶o̶ i̶t̶e̶m̶s̶ m̶a̶r̶k̶e̶d̶ a̶s̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶,̶ t̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ i̶t̶e̶m̶s̶ s̶e̶c̶t̶i̶o̶n̶ w̶o̶n̶'̶t̶ b̶e̶ d̶i̶s̶p̶l̶a̶y̶e̶d̶ o̶n̶ t̶h̶e̶ h̶o̶m̶e̶ p̶a̶g̶e̶.̶ T̶h̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶ s̶e̶c̶t̶i̶o̶n̶ w̶i̶l̶l̶ o̶n̶l̶y̶ a̶p̶p̶e̶a̶r̶ i̶f̶ t̶h̶e̶r̶e̶ i̶s̶ o̶n̶e̶ o̶r̶ m̶o̶r̶e̶ a̶v̶a̶i̶l̶a̶b̶l̶e̶ (̶u̶n̶s̶o̶l̶d̶ i̶t̶e̶m̶s̶)̶ a̶r̶e̶ m̶a̶r̶k̶e̶d̶ t̶o̶ b̶e̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶d̶.̶
 
-11. " **My buyers" are optional.** See the optional section for details. On this page, a seller will see the buyer's phone, name, email address, and location.
+1̶1̶.̶ "̶ *̶*̶M̶y̶ b̶u̶y̶e̶r̶s̶"̶ a̶r̶e̶ o̶p̶t̶i̶o̶n̶a̶l̶.̶*̶*̶ S̶e̶e̶ t̶h̶e̶ o̶p̶t̶i̶o̶n̶a̶l̶ s̶e̶c̶t̶i̶o̶n̶ f̶o̶r̶ d̶e̶t̶a̶i̶l̶s̶.̶ O̶n̶ t̶h̶i̶s̶ p̶a̶g̶e̶,̶ a̶ s̶e̶l̶l̶e̶r̶ w̶i̶l̶l̶ s̶e̶e̶ t̶h̶e̶ b̶u̶y̶e̶r̶'̶s̶ p̶h̶o̶n̶e̶,̶ n̶a̶m̶e̶,̶ e̶m̶a̶i̶l̶ a̶d̶d̶r̶e̶s̶s̶,̶ a̶n̶d̶ l̶o̶c̶a̶t̶i̶o̶n̶.̶
 
 1̶2̶.̶ I̶n̶ t̶h̶e̶ *̶*̶A̶l̶l̶ S̶e̶l̶l̶e̶r̶s̶,̶*̶*̶ t̶h̶e̶ A̶d̶m̶i̶n̶ w̶i̶l̶l̶ s̶e̶e̶ t̶h̶e̶ s̶e̶l̶l̶e̶r̶s̶.̶ O̶n̶ t̶h̶e̶ *̶*̶A̶l̶l̶ B̶u̶y̶e̶r̶s̶*̶*̶ r̶o̶u̶t̶e̶,̶ t̶h̶e̶ A̶d̶m̶i̶n̶ c̶a̶n̶ s̶e̶e̶ a̶l̶l̶ t̶h̶e̶ B̶u̶y̶e̶r̶s̶.̶ I̶f̶ t̶h̶e̶ A̶d̶m̶i̶n̶ w̶a̶n̶t̶s̶,̶ h̶e̶ c̶a̶n̶ d̶e̶l̶e̶t̶e̶ a̶n̶y̶ b̶u̶y̶e̶r̶s̶ o̶r̶ s̶e̶l̶l̶e̶r̶s̶.̶
 
@@ -66,9 +66,9 @@ Your website has to be related to selling used (second-hand products) with the a
 
 3̶.̶ A̶d̶d̶ a̶ m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ f̶a̶v̶i̶c̶o̶n̶.̶ If data is loading, a spinner will be displayed. When you are loading data by using a loader, make sure you have added a route.
 
-4. Implement an extra feature: **WishList** or **Report to Admin**(choose one) in the /category/:id route. A buyer can make a product to his/her wishlist or report an item by clicking a relevant button. If you have implemented the wishlist feature, show them in the buyer's Dashboard in a separate route, "My WishList." A user should be able to purchase the item from the wishlist page. (Just redirect the user to the purchase page)
+4̶.̶ I̶m̶p̶l̶e̶m̶e̶n̶t̶ a̶n̶ e̶x̶t̶r̶a̶ f̶e̶a̶t̶u̶r̶e̶:̶ *̶*̶W̶i̶s̶h̶L̶i̶s̶t̶*̶*̶ o̶r̶ *̶*̶R̶e̶p̶o̶r̶t̶ t̶o̶ A̶d̶m̶i̶n̶*̶*̶(̶c̶h̶o̶o̶s̶e̶ o̶n̶e̶)̶ i̶n̶ t̶h̶e̶ /̶c̶a̶t̶e̶g̶o̶r̶y̶/̶:̶i̶d̶ r̶o̶u̶t̶e̶.̶ A̶ b̶u̶y̶e̶r̶ c̶a̶n̶ m̶a̶k̶e̶ a̶ p̶r̶o̶d̶u̶c̶t̶ t̶o̶ h̶i̶s̶/̶h̶e̶r̶ w̶i̶s̶h̶l̶i̶s̶t̶ o̶r̶ r̶e̶p̶o̶r̶t̶ a̶n̶ i̶t̶e̶m̶ b̶y̶ c̶l̶i̶c̶k̶i̶n̶g̶ a̶ r̶e̶l̶e̶v̶a̶n̶t̶ b̶u̶t̶t̶o̶n̶.̶ I̶f̶ y̶o̶u̶ h̶a̶v̶e̶ i̶m̶p̶l̶e̶m̶e̶n̶t̶e̶d̶ t̶h̶e̶ w̶i̶s̶h̶l̶i̶s̶t̶ f̶e̶a̶t̶u̶r̶e̶,̶ s̶h̶o̶w̶ t̶h̶e̶m̶ i̶n̶ t̶h̶e̶ b̶u̶y̶e̶r̶'̶s̶ D̶a̶s̶h̶b̶o̶a̶r̶d̶ i̶n̶ a̶ s̶e̶p̶a̶r̶a̶t̶e̶ r̶o̶u̶t̶e̶,̶ "̶M̶y̶ W̶i̶s̶h̶L̶i̶s̶t̶.̶"̶ A̶ u̶s̶e̶r̶ s̶h̶o̶u̶l̶d̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ p̶u̶r̶c̶h̶a̶s̶e̶ t̶h̶e̶ i̶t̶e̶m̶ f̶r̶o̶m̶ t̶h̶e̶ w̶i̶s̶h̶l̶i̶s̶t̶ p̶a̶g̶e̶.̶ (̶J̶u̶s̶t̶ r̶e̶d̶i̶r̶e̶c̶t̶ t̶h̶e̶ u̶s̶e̶r̶ t̶o̶ t̶h̶e̶ p̶u̶r̶c̶h̶a̶s̶e̶ p̶a̶g̶e̶)̶
 
-   If you have implemented the "report to admin" feature, show the reported items in the admin dashboard in a separate route, "Reported Items" (tips: create a separate collection for the wish list and filter by user email address). An admin will be able to delete a reported item. 
+   I̶f̶ y̶o̶u̶ h̶a̶v̶e̶ i̶m̶p̶l̶e̶m̶e̶n̶t̶e̶d̶ t̶h̶e̶ "̶r̶e̶p̶o̶r̶t̶ t̶o̶ a̶d̶m̶i̶n̶"̶ f̶e̶a̶t̶u̶r̶e̶,̶ s̶h̶o̶w̶ t̶h̶e̶ r̶e̶p̶o̶r̶t̶e̶d̶ i̶t̶e̶m̶s̶ i̶n̶ t̶h̶e̶ a̶d̶m̶i̶n̶ d̶a̶s̶h̶b̶o̶a̶r̶d̶ i̶n̶ a̶ s̶e̶p̶a̶r̶a̶t̶e̶ r̶o̶u̶t̶e̶,̶ "̶R̶e̶p̶o̶r̶t̶e̶d̶ I̶t̶e̶m̶s̶"̶ (̶t̶i̶p̶s̶:̶ c̶r̶e̶a̶t̶e̶ a̶ s̶e̶p̶a̶r̶a̶t̶e̶ c̶o̶l̶l̶e̶c̶t̶i̶o̶n̶ f̶o̶r̶ t̶h̶e̶ w̶i̶s̶h̶ l̶i̶s̶t̶ a̶n̶d̶ f̶i̶l̶t̶e̶r̶ b̶y̶ u̶s̶e̶r̶ e̶m̶a̶i̶l̶ a̶d̶d̶r̶e̶s̶s̶)̶.̶ A̶n̶ a̶d̶m̶i̶n̶ w̶i̶l̶l̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ d̶e̶l̶e̶t̶e̶ a̶ r̶e̶p̶o̶r̶t̶e̶d̶ i̶t̶e̶m̶.̶ 
 
 5. Implement the basic version of the JWT token for email/password-based authentication. Upon social login, registration, and login, you will create a JWT token and store it on the client side. You will send the token for my orders, buyers, and advertisements routes and verify the user.
 

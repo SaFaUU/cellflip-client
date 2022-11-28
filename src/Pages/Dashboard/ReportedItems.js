@@ -7,8 +7,15 @@ const ReportedItems = () => {
         queryFn: () => fetch('http://localhost:5000/report')
             .then(res => res.json())
     })
-    const handleDelete = (item) => {
-        console.log(item)
+    const handleDelete = (product) => {
+        fetch(`http://localhost:5000/products/${product._id}`, {
+            method: 'DELETE'
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                refetch()
+            })
     }
     return (
         <div className="overflow-x-auto">

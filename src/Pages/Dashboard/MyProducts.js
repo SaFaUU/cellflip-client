@@ -23,7 +23,7 @@ const MyProducts = () => {
     })
 
     const handleDelete = (product) => {
-        fetch(`http://localhost:5000/my-products/${product._id}`, {
+        fetch(`http://localhost:5000/products/${product._id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

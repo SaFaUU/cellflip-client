@@ -1,7 +1,8 @@
 import React from 'react';
 import toast from 'react-hot-toast';
 
-const Card = ({ product }) => {
+const Card = ({ product, handleModal, setCloseModalDataState }) => {
+    setCloseModalDataState(true)
     const { productName, img_url, description, price, date } = product;
     const handleReport = (product) => {
         console.log(product)
@@ -25,7 +26,10 @@ const Card = ({ product }) => {
                     <div className="badge badge-info py-3 px-2 grow text-white">{date}</div>
                 </div>
                 <div className="card-actions justify-left w-full flex">
-                    <button className="btn btn-primary text-md text-white font-bold grow">Book Now</button>
+                    <label className="btn btn-primary text-md text-white font-bold grow" htmlFor="bookingModal" onClick={() => {
+                        handleModal(product)
+
+                    }}>Book Now</label>
                     <button onClick={() => handleReport(product)} className="btn btn-secondary text-md text-white font-bold w-1/4 px-10">Report</button>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Main from "../../Layout/Main";
 import Blog from "../../Pages/Blog/Blog";
+import CategoryPage from "../../Pages/CategoryPage/CategoryPage";
 import AddCategories from "../../Pages/Dashboard/AddCategories";
 import AddProduct from "../../Pages/Dashboard/AddProduct";
 import AllBuyers from "../../Pages/Dashboard/AllBuyers";
@@ -17,6 +18,7 @@ import MyProducts from "../../Pages/Dashboard/MyProducts";
 import ReportedItems from "../../Pages/Dashboard/ReportedItems";
 import Home from "../../Pages/Home/Home";
 import Login from "../../Pages/Login/Login";
+import PaymentPage from "../../Pages/PaymentPage/PaymentPage";
 import SignUp from "../../Pages/SignUp/SignUp";
 import AdminRoute from "../AdminRoute/AdminRoute";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
@@ -43,6 +45,15 @@ export const router = createBrowserRouter([
             {
                 path: '/blog',
                 element: <Blog></Blog>
+            },
+            {
+                path: '/payment',
+                element: <UserRoute><PaymentPage></PaymentPage></UserRoute>
+            },
+            {
+                path: '/category/:id',
+                element: <UserRoute><CategoryPage></CategoryPage></UserRoute>,
+                loader: ({ params }) => fetch()
             },
             {
                 path: '/dashboard',
@@ -78,6 +89,7 @@ export const router = createBrowserRouter([
                     },
                 ]
             },
+
 
         ]
     },

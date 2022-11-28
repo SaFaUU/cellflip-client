@@ -17,6 +17,7 @@ const SellerSidebar = () => {
                 <ul className="menu p-4 w-full bg-base-100 text-base-content lg:block flex flex-row justify-between">
                     <li><Link to='add-product'>Add Product</Link></li>
                     <li><Link to='my-products'>My Products</Link></li>
+                    <li><Link to='my-products'>My Buyers</Link></li>
                 </ul>
 
             </div>

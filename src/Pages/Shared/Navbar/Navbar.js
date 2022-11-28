@@ -3,9 +3,11 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import { MdAccountCircle } from 'react-icons/md';
 import toast from 'react-hot-toast';
+import useRole from '../../../Hooks/useRole';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
+    const [userRole, userLoading] = useRole(user?.email)
     const navigate = useNavigate()
     const handleSignOut = () => {
         logOut()
@@ -18,7 +20,19 @@ const Navbar = () => {
     }
     const menuItems = <>
         <li className='rounded-xl btn btn-ghost'><Link to='/'>Home</Link></li>
-        <li className='rounded-xl btn btn-ghost'><Link to='/dashboard'>Dashboard</Link></li>
+        {
+            user?.uid && <>
+                {
+                    userRole === 'admin' && <li className='rounded-xl btn btn-ghost'><Link to='/dashboard/all-sellers'>Dashboard</Link></li>
+                }
+                {
+                    userRole === 'seller' && <li className='rounded-xl btn btn-ghost'><Link to='/dashboard/my-products'>Dashboard</Link></li>
+                }
+                {
+                    userRole === 'user' && <li className='rounded-xl btn btn-ghost'><Link to='/dashboard/my-orders'>Dashboard</Link></li>
+                }
+            </>
+        }
         <li className='rounded-xl btn btn-ghost'><Link to='/blog'>Blog</Link></li>
     </>
     return (

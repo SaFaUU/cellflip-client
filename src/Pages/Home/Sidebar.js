@@ -29,7 +29,7 @@ const Sidebar = () => {
                         categories?.map((category, index) =>
                             <li
                                 key={index}
-                            ><Link>{category.name}</Link></li>)
+                            ><Link to={`/category/${category._id}`}>{category.name}</Link></li>)
                     }
                 </ul>
 
