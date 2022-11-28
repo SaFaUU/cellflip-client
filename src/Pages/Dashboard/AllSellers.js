@@ -4,7 +4,7 @@ import React from 'react';
 const AllSellers = () => {
     const { data: users, refetch } = useQuery({
         queryKey: ['sellers'],
-        queryFn: () => fetch('http://localhost:5000/user?role=seller', {
+        queryFn: () => fetch('https://cellflip-server.vercel.app/user?role=seller', {
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,
             }
@@ -13,7 +13,7 @@ const AllSellers = () => {
     })
     const handleVerification = (user) => {
         console.log(user)
-        fetch(`http://localhost:5000/verify/${user.email}`, {
+        fetch(`https://cellflip-server.vercel.app/verify/${user.email}`, {
             method: 'PUT',
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,

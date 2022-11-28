@@ -10,7 +10,7 @@ const MyOrders = () => {
 
     const { data: products, refetch } = useQuery({
         queryKey: ['myorders'],
-        queryFn: () => fetch(`http://localhost:5000/my-orders?email=${user?.email}`, {
+        queryFn: () => fetch(`https://cellflip-server.vercel.app/my-orders?email=${user?.email}`, {
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,
             }

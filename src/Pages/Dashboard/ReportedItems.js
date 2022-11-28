@@ -4,7 +4,7 @@ import React from 'react';
 const ReportedItems = () => {
     const { data: reportItems, refetch } = useQuery({
         queryKey: ['reported-items'],
-        queryFn: () => fetch('http://localhost:5000/report', {
+        queryFn: () => fetch('https://cellflip-server.vercel.app/report', {
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,
             }
@@ -12,7 +12,7 @@ const ReportedItems = () => {
             .then(res => res.json())
     })
     const handleDelete = (product) => {
-        fetch(`http://localhost:5000/products/${product._id}`, {
+        fetch(`https://cellflip-server.vercel.app/products/${product._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,

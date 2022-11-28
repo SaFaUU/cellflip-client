@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FcGoogle } from 'react-icons/fc';
@@ -10,6 +10,10 @@ const Login = () => {
     const { signInWithGoogle, signIn } = useContext(AuthContext)
     const { register, handleSubmit } = useForm();
     const navigate = useNavigate()
+    const location = useLocation();
+    const from = location?.state?.from?.pathname || '/'
+
+
     const handleLogin = (data) => {
         console.log(data)
         signIn(data.email, data.password)
@@ -21,7 +25,7 @@ const Login = () => {
                     email: user.email,
                 }
                 //get jwt token
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://cellflip-server.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -34,7 +38,7 @@ const Login = () => {
                         localStorage.setItem('token', data.token)
                     })
 
-                navigate('/')
+                navigate(from, { replace: true })
             })
             .catch(err => console.error(err))
     }
@@ -48,7 +52,7 @@ const Login = () => {
                 }
                 toast.success(`Welcome ${user.displayName}`)
                 if (user && user?.uid) {
-                    fetch('http://localhost:5000/user', {
+                    fetch('https://cellflip-server.vercel.app/user', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -61,7 +65,7 @@ const Login = () => {
                             const currentUser = {
                                 email: user.email,
                             }
-                            fetch('http://localhost:5000/jwt', {
+                            fetch('https://cellflip-server.vercel.app/jwt', {
                                 method: 'POST',
                                 headers: {
                                     'Content-Type': 'application/json',

@@ -11,7 +11,7 @@ const CheckoutForm = ({ bookingData }) => {
 
     useEffect(() => {
         // Create PaymentIntent as soon as the page loads
-        fetch("http://localhost:5000/create-payment-intent", {
+        fetch("https://cellflip-server.vercel.app/create-payment-intent", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -92,7 +92,7 @@ const CheckoutForm = ({ bookingData }) => {
                 buyerPhone,
                 bookingId: _id,
             }
-            fetch('http://localhost:5000/payments', {
+            fetch('https://cellflip-server.vercel.app/payments', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',

@@ -4,7 +4,7 @@ const useRole = (email) => {
     const [userRole, setUserRole] = useState('');
     const [userLoading, setUserLoading] = useState(true);
     useEffect(() => {
-        fetch(`http://localhost:5000/user/${email}`)
+        fetch(`https://cellflip-server.vercel.app/user/${email}`)
             .then(res => res.json())
             .then(data => {
                 setUserRole(data.role);

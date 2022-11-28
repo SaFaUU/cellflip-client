@@ -11,7 +11,7 @@ import Sidebar from './Sidebar';
 const Home = () => {
     const { data: products, refetch } = useQuery({
         queryKey: ['allProducts'],
-        queryFn: () => fetch('http://localhost:5000/products', {
+        queryFn: () => fetch('https://cellflip-server.vercel.app/products', {
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,
             }

@@ -72,7 +72,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 5̶.̶ I̶m̶p̶l̶e̶m̶e̶n̶t̶ t̶h̶e̶ b̶a̶s̶i̶c̶ v̶e̶r̶s̶i̶o̶n̶ o̶f̶ t̶h̶e̶ J̶W̶T̶ t̶o̶k̶e̶n̶ f̶o̶r̶ e̶m̶a̶i̶l̶/̶p̶a̶s̶s̶w̶o̶r̶d̶-̶b̶a̶s̶e̶d̶ a̶u̶t̶h̶e̶n̶t̶i̶c̶a̶t̶i̶o̶n̶.̶ U̶p̶o̶n̶ s̶o̶c̶i̶a̶l̶ l̶o̶g̶i̶n̶,̶ r̶e̶g̶i̶s̶t̶r̶a̶t̶i̶o̶n̶,̶ a̶n̶d̶ l̶o̶g̶i̶n̶,̶ y̶o̶u̶ w̶i̶l̶l̶ c̶r̶e̶a̶t̶e̶ a̶ J̶W̶T̶ t̶o̶k̶e̶n̶ a̶n̶d̶ s̶t̶o̶r̶e̶ i̶t̶ o̶n̶ t̶h̶e̶ c̶l̶i̶e̶n̶t̶ s̶i̶d̶e̶.̶ Y̶o̶u̶ w̶i̶l̶l̶ s̶e̶n̶d̶ t̶h̶e̶ t̶o̶k̶e̶n̶ f̶o̶r̶ m̶y̶ o̶r̶d̶e̶r̶s̶,̶ b̶u̶y̶e̶r̶s̶,̶ a̶n̶d̶ a̶d̶v̶e̶r̶t̶i̶s̶e̶m̶e̶n̶t̶s̶ r̶o̶u̶t̶e̶s̶ a̶n̶d̶ v̶e̶r̶i̶f̶y̶ t̶h̶e̶ u̶s̶e̶r̶.̶
 
-6. The **all-sellers** route will have a name, email address, delete button, and verify button. Admin will be able to verify a seller. When clicked on the verify button, the seller's status will change from unverified to verified(show a blue tick when the seller is verified), and this status will be shown on the products added by a verified seller.
+6̶.̶ T̶h̶e̶ *̶*̶a̶l̶l̶-̶s̶e̶l̶l̶e̶r̶s̶*̶*̶ r̶o̶u̶t̶e̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ n̶a̶m̶e̶,̶ e̶m̶a̶i̶l̶ a̶d̶d̶r̶e̶s̶s̶,̶ d̶e̶l̶e̶t̶e̶ b̶u̶t̶t̶o̶n̶,̶ a̶n̶d̶ v̶e̶r̶i̶f̶y̶ b̶u̶t̶t̶o̶n̶.̶ A̶d̶m̶i̶n̶ w̶i̶l̶l̶ b̶e̶ a̶b̶l̶e̶ t̶o̶ v̶e̶r̶i̶f̶y̶ a̶ s̶e̶l̶l̶e̶r̶.̶ W̶h̶e̶n̶ c̶l̶i̶c̶k̶e̶d̶ o̶n̶ t̶h̶e̶ v̶e̶r̶i̶f̶y̶ b̶u̶t̶t̶o̶n̶,̶ t̶h̶e̶ s̶e̶l̶l̶e̶r̶'̶s̶ s̶t̶a̶t̶u̶s̶ w̶i̶l̶l̶ c̶h̶a̶n̶g̶e̶ f̶r̶o̶m̶ u̶n̶v̶e̶r̶i̶f̶i̶e̶d̶ t̶o̶ v̶e̶r̶i̶f̶i̶e̶d̶(̶s̶h̶o̶w̶ a̶ b̶l̶u̶e̶ t̶i̶c̶k̶ w̶h̶e̶n̶ t̶h̶e̶ s̶e̶l̶l̶e̶r̶ i̶s̶ v̶e̶r̶i̶f̶i̶e̶d̶)̶,̶ a̶n̶d̶ t̶h̶i̶s̶ s̶t̶a̶t̶u̶s̶ w̶i̶l̶l̶ b̶e̶ s̶h̶o̶w̶n̶ o̶n̶ t̶h̶e̶ p̶r̶o̶d̶u̶c̶t̶s̶ a̶d̶d̶e̶d̶ b̶y̶ a̶ v̶e̶r̶i̶f̶i̶e̶d̶ s̶e̶l̶l̶e̶r̶.̶
 
 7̶.̶ T̶h̶e̶ *̶*̶M̶y̶ O̶r̶d̶e̶r̶s̶*̶*̶ r̶o̶u̶t̶e̶ w̶i̶l̶l̶ h̶a̶v̶e̶ a̶ t̶a̶b̶l̶e̶/̶c̶a̶r̶d̶s̶.̶ E̶a̶c̶h̶ c̶a̶r̶d̶/̶ t̶a̶b̶l̶e̶ r̶o̶w̶ w̶i̶l̶l̶ b̶e̶ a̶n̶ o̶r̶d̶e̶r̶ h̶a̶v̶i̶n̶g̶ a̶n̶ i̶m̶a̶g̶e̶,̶ t̶i̶t̶l̶e̶,̶ p̶r̶i̶c̶e̶,̶ a̶n̶d̶ a̶ p̶a̶y̶ b̶u̶t̶t̶o̶n̶.̶ O̶n̶ c̶l̶i̶c̶k̶i̶n̶g̶ t̶h̶e̶ p̶a̶y̶ b̶u̶t̶t̶o̶n̶,̶ t̶o̶ t̶a̶k̶e̶ t̶h̶e̶ u̶s̶e̶r̶ t̶h̶e̶ p̶a̶y̶m̶e̶n̶t̶ p̶a̶g̶e̶ w̶i̶t̶h̶ f̶i̶e̶l̶d̶s̶ f̶o̶r̶ c̶a̶r̶d̶ d̶e̶t̶a̶i̶l̶s̶ w̶i̶l̶l̶ p̶o̶p̶ u̶p̶,̶ o̶r̶ t̶h̶e̶ u̶s̶e̶r̶ w̶i̶l̶l̶ b̶e̶ t̶a̶k̶e̶n̶ t̶o̶ a̶ r̶o̶u̶t̶e̶ w̶h̶e̶r̶e̶ t̶h̶e̶r̶e̶ w̶i̶l̶l̶ b̶e̶ a̶ f̶o̶r̶m̶ f̶o̶r̶ f̶i̶l̶l̶i̶n̶g̶ u̶p̶ c̶a̶r̶d̶ d̶e̶t̶a̶i̶l̶s̶.̶ S̶a̶v̶e̶ t̶h̶e̶ p̶a̶y̶m̶e̶n̶t̶ i̶n̶f̶o̶r̶m̶a̶t̶i̶o̶n̶ i̶n̶ t̶h̶e̶ d̶a̶t̶a̶b̶a̶s̶e̶ a̶n̶d̶ i̶n̶f̶o̶r̶m̶ t̶h̶e̶ u̶s̶e̶r̶ v̶i̶a̶ a̶ m̶o̶d̶a̶l̶/̶t̶o̶a̶s̶t̶.̶ D̶o̶n̶'̶t̶ f̶o̶r̶g̶e̶t̶ t̶o̶ u̶p̶d̶a̶t̶e̶ t̶h̶e̶ b̶u̶t̶t̶o̶n̶ t̶e̶x̶t̶ t̶o̶ "̶p̶a̶i̶d̶"̶ a̶f̶t̶e̶r̶ p̶a̶y̶m̶e̶n̶t̶.̶ P̶l̶e̶a̶s̶e̶ n̶o̶t̶e̶,̶ p̶a̶y̶m̶e̶n̶t̶ w̶i̶l̶l̶ b̶e̶ d̶o̶n̶e̶ b̶y̶ S̶t̶r̶i̶p̶e̶.̶ 
 
@@ -95,13 +95,13 @@ Your website has to be related to selling used (second-hand products) with the a
 
 ### **What to submit**
 
-1. Client-side code GitHub repository
-2. Server-side code GitHub repository
-3. Live website link
-4. **IMPORTANT:** For the examiners to check your admin routes, create a user for your site, give the email address: admin role and add this user's credentials in the client side readme in this **exact format** :
+1̶.̶ C̶l̶i̶e̶n̶t̶-̶s̶i̶d̶e̶ c̶o̶d̶e̶ G̶i̶t̶H̶u̶b̶ r̶e̶p̶o̶s̶i̶t̶o̶r̶y̶
+2̶.̶ S̶e̶r̶v̶e̶r̶-̶s̶i̶d̶e̶ c̶o̶d̶e̶ G̶i̶t̶H̶u̶b̶ r̶e̶p̶o̶s̶i̶t̶o̶r̶y̶
+3̶.̶ L̶i̶v̶e̶ w̶e̶b̶s̶i̶t̶e̶ l̶i̶n̶k̶
+4̶.̶ *̶*̶I̶M̶P̶O̶R̶T̶A̶N̶T̶:̶*̶*̶ F̶o̶r̶ t̶h̶e̶ e̶x̶a̶m̶i̶n̶e̶r̶s̶ t̶o̶ c̶h̶e̶c̶k̶ y̶o̶u̶r̶ a̶d̶m̶i̶n̶ r̶o̶u̶t̶e̶s̶,̶ c̶r̶e̶a̶t̶e̶ a̶ u̶s̶e̶r̶ f̶o̶r̶ y̶o̶u̶r̶ s̶i̶t̶e̶,̶ g̶i̶v̶e̶ t̶h̶e̶ e̶m̶a̶i̶l̶ a̶d̶d̶r̶e̶s̶s̶:̶ a̶d̶m̶i̶n̶ r̶o̶l̶e̶ a̶n̶d̶ a̶d̶d̶ t̶h̶i̶s̶ u̶s̶e̶r̶'̶s̶ c̶r̶e̶d̶e̶n̶t̶i̶a̶l̶s̶ i̶n̶ t̶h̶e̶ c̶l̶i̶e̶n̶t̶ s̶i̶d̶e̶ r̶e̶a̶d̶m̶e̶ i̶n̶ t̶h̶i̶s̶ *̶*̶e̶x̶a̶c̶t̶ f̶o̶r̶m̶a̶t̶*̶*̶ :̶
 
-adminEmail: \<your admin email\>
+a̶d̶m̶i̶n̶E̶m̶a̶i̶l̶:̶ \̶<̶y̶o̶u̶r̶ a̶d̶m̶i̶n̶ e̶m̶a̶i̶l̶\̶>̶
 
-adminPassword: \<your admin password\>
+a̶d̶m̶i̶n̶P̶a̶s̶s̶w̶o̶r̶d̶:̶ \̶<̶y̶o̶u̶r̶ a̶d̶m̶i̶n̶ p̶a̶s̶s̶w̶o̶r̶d̶\̶>̶
 
 Otherwise, you won't get any marks for your admin routes.

@@ -10,7 +10,7 @@ const MyProducts = () => {
 
     // const [products, setProducts] = useState([])
     // useEffect(() => {
-    //     fetch(`http://localhost:5000/my-products/${user?.email}`)
+    //     fetch(`https://cellflip-server.vercel.app/my-products/${user?.email}`)
     //         .then(res => res.json())
     //         .then(data => {
     //             setProducts(data)
@@ -18,7 +18,7 @@ const MyProducts = () => {
     // }, [user, products])
     const { data: products = [], refetch, isLoading } = useQuery({
         queryKey: ['my-products', user?.email],
-        queryFn: () => fetch(`http://localhost:5000/my-products/${user?.email}`, {
+        queryFn: () => fetch(`https://cellflip-server.vercel.app/my-products/${user?.email}`, {
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,
             }
@@ -27,7 +27,7 @@ const MyProducts = () => {
     })
 
     const handleDelete = (product) => {
-        fetch(`http://localhost:5000/products/${product._id}`, {
+        fetch(`https://cellflip-server.vercel.app/products/${product._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem('token')}`,
@@ -44,7 +44,7 @@ const MyProducts = () => {
         // console.log(product)
         product.advertiseEnable = !product.advertiseEnable
         console.log(product)
-        fetch(`http://localhost:5000/my-products/${product._id}`, {
+        fetch(`https://cellflip-server.vercel.app/my-products/${product._id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',

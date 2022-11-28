@@ -15,7 +15,7 @@ const AddProduct = () => {
     const [categories, setCategories] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:5000/categories')
+        axios.get('https://cellflip-server.vercel.app/categories')
             .then(data => {
                 // console.log(data.data);
                 setCategories(data.data)
@@ -58,7 +58,7 @@ const AddProduct = () => {
                         sellerImg: dbUser?.img_url,
                     }
                     console.log(productToAdd);
-                    fetch('http://localhost:5000/products', {
+                    fetch('https://cellflip-server.vercel.app/products', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

@@ -4,7 +4,7 @@ const useAdmin = (email) => {
     const [isAdmin, setIsAdmin] = useState(false);
     const [adminLoading, setAdminLoading] = useState(true);
     useEffect(() => {
-        fetch(`http://localhost:5000/user/${email}`)
+        fetch(`https://cellflip-server.vercel.app/user/${email}`)
             .then(res => res.json())
             .then(data => {
                 if (data.role === 'admin') {

@@ -7,7 +7,7 @@ const CategoryCard = ({ product, handleModal, setCloseModalDataState }) => {
     const { productName, img_url, price, date, location, originalPrice, purchaseYear, sellerName, sellerMail, verifiedSeller } = product;
     const handleReport = (product) => {
         console.log(product)
-        fetch(`http://localhost:5000/report/${product._id}`, {
+        fetch(`https://cellflip-server.vercel.app/report/${product._id}`, {
             method: 'PUT',
         })
             .then(response => response.json())

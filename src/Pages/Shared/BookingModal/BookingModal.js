@@ -11,6 +11,8 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
     const [dbUser, dbloading] = useUser(user?.email)
     const { register, handleSubmit } = useForm();
 
+
+
     const handleBook = (data) => {
         console.log(data)
 
@@ -29,7 +31,7 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
 
         if (Object.keys(bookingData).length === 10) {
             setBookingData(bookingData)
-            fetch('http://localhost:5000/bookings', {
+            fetch('https://cellflip-server.vercel.app/bookings', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -46,6 +48,7 @@ const BookingModal = ({ modalData, closeModal, setBookingData }) => {
         }
 
     }
+
 
     return (
         <div>

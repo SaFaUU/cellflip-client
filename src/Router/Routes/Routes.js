@@ -51,12 +51,12 @@ export const router = createBrowserRouter([
             {
                 path: '/payment/:id',
                 element: <UserRoute><PaymentPage></PaymentPage></UserRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/booking/${params.id}`)
+                loader: ({ params }) => fetch(`https://cellflip-server.vercel.app/booking/${params.id}`)
             },
             {
                 path: '/category/:id',
                 element: <CategoryPage></CategoryPage>,
-                loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`)
+                loader: ({ params }) => fetch(`https://cellflip-server.vercel.app/category/${params.id}`)
             },
             {
                 path: '/dashboard',

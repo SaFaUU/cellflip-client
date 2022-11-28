@@ -20,7 +20,7 @@ const SignUp = () => {
                     verified: false,
                 }
                 if (user && user?.uid) {
-                    fetch('http://localhost:5000/user', {
+                    fetch('https://cellflip-server.vercel.app/user', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const SignUp = () => {
                 const currentUser = {
                     email: user?.email,
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://cellflip-server.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

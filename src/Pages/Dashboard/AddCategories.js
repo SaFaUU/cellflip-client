@@ -8,7 +8,7 @@ const AddCategories = () => {
     const { register, handleSubmit } = useForm();
     const handleAddProduct = (data) => {
         console.log(data);
-        fetch(`http://localhost:5000/add-category?category_name=${data.categoryName}`, {
+        fetch(`https://cellflip-server.vercel.app/add-category?category_name=${data.categoryName}`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

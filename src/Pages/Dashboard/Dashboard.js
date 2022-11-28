@@ -5,10 +5,12 @@ import DashboardSidebar from './DashboardSidebar';
 
 const Dashboard = () => {
     return (
-        <div className='flex mb-40 mt-10'>
-            <DashboardSidebar></DashboardSidebar>
-            <div className='ml-5 w-full'>
-                <Outlet></Outlet>
+        <div className=''>
+            <div className='flex mb-40 mt-10 sm:flex sm:flex-col'>
+                <DashboardSidebar></DashboardSidebar>
+                <div className='ml-5 w-full'>
+                    <Outlet></Outlet>
+                </div>
             </div>
         </div>
     );
