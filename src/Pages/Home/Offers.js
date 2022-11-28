@@ -17,7 +17,7 @@ const Offers = () => {
                 </div>
             </div>
             <div className="rounded-xl bg-base-100 shadow-lg flex items-center align-middle justify-center">
-                <figure className='w-1/3'><img src="https://assets.stickpng.com/images/61d4a2048b51e20004664d46.png" alt="Album" /></figure>
+                <figure className='w-1/3'><img src="https://i01.appmifile.com/webfile/globalimg/in/cms/A306648A-FA43-45A5-12B7-7F7FE260A921.jpg" alt="Album" /></figure>
                 <div className="card-body w-1/2 p-5">
                     <h2 className="card-title text-xl font-bold">Catch amazing Deals on Redmi</h2>
                     <div className="card-actions justify-center mt-2">
