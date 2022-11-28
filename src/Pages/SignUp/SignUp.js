@@ -9,49 +9,66 @@ const SignUp = () => {
     const navigate = useNavigate()
     const handleRegister = (data) => {
         console.log(data)
-        createUser(data.email, data.password)
-            .then(result => {
-                const user = result.user;
-                console.log(user)
-                const userData = {
-                    email: data.email,
-                    role: data.role,
-                    name: data.name,
-                    verified: false,
-                }
-                if (user && user?.uid) {
-                    fetch('https://cellflip-server.vercel.app/user', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify(userData),
-                    })
-                        .then(res => res.json())
-                        .then(data => {
-                            console.log(data)
+        const image = data.image[0]
+        const formData = new FormData();
+        formData.append('image', image)
+        const url = `https://api.imgbb.com/1/upload?key=${process.env.REACT_APP_imgbb_key}`
+        fetch(url, {
+            method: 'POST',
+            body: formData
+        })
+            .then(res => res.json())
+            .then(imgData => {
+                console.log(imgData)
+                if (imgData.success) {
+                    createUser(data.email, data.password)
+                        .then(result => {
+                            const user = result.user;
+                            console.log(user)
+                            const userData = {
+                                email: data.email,
+                                role: data.role,
+                                name: data.name,
+                                verified: false,
+                                img_url: imgData.data.url,
+                            }
+                            if (user && user?.uid) {
+                                fetch('https://cellflip-server.vercel.app/user', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                    },
+                                    body: JSON.stringify(userData),
+                                })
+                                    .then(res => res.json())
+                                    .then(data => {
+                                        console.log(data)
+                                    })
+                            }
+                            const currentUser = {
+                                email: user?.email,
+                            }
+                            fetch('https://cellflip-server.vercel.app/jwt', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify(currentUser)
+                            })
+                                .then(res => res.json())
+                                .then(data => {
+                                    console.log(data);
+                                    localStorage.setItem('token', data.token)
+
+                                })
+                            navigate('/')
+
                         })
+                        .catch(err => console.error(err))
                 }
-                const currentUser = {
-                    email: user?.email,
-                }
-                fetch('https://cellflip-server.vercel.app/jwt', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(currentUser)
-                })
-                    .then(res => res.json())
-                    .then(data => {
-                        console.log(data);
-                        localStorage.setItem('token', data.token)
-
-                    })
-                navigate('/')
-
             })
-            .catch(err => console.error(err))
+
+
     }
 
     return (
@@ -79,7 +96,12 @@ const SignUp = () => {
                                     <option value="seller">Seller</option>
                                 </select>
                             </div>
-
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Profile Image</span>
+                                </label>
+                                <input type="file" {...register("image")} className="file-input file-input-bordered w-full max-w-xs" />
+                            </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>

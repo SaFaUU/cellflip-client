@@ -4,10 +4,12 @@ import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import { MdAccountCircle } from 'react-icons/md';
 import toast from 'react-hot-toast';
 import useRole from '../../../Hooks/useRole';
+import useUser from '../../../Hooks/useUser';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
     const [userRole, userLoading] = useRole(user?.email)
+    const [dbUser] = useUser(user?.email)
     const navigate = useNavigate()
     const handleSignOut = () => {
         logOut()
@@ -64,14 +66,20 @@ const Navbar = () => {
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar ">
                                 {
-                                    user?.photoURL ?
+                                    dbUser?.img_url ?
 
                                         <div className="w-10 rounded-full ring ring-blue-700 ring-offset-base-100 ring-offset-2">
-                                            <img src={user?.photoURL} alt='' />
+                                            <img src={dbUser?.img_url} alt='' />
                                         </div>
 
                                         :
                                         <MdAccountCircle className='text-5xl'></MdAccountCircle>
+                                }
+                                {
+                                    user?.photoURL &&
+                                    <div className="w-10 rounded-full ring ring-blue-700 ring-offset-base-100 ring-offset-2">
+                                        <img src={user?.photoURL} alt='' />
+                                    </div>
                                 }
                             </label>
                             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">

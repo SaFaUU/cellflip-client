@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const UserSidebar = () => {
     return (
-        <div className="drawer border w-1/5 border-slate-200 rounded-xl  h-auto mb-5 sm:w-full sm:text-center">
+        <div className="drawer border border-slate-200 rounded-xl  h-auto mb-5 sm:w-full md:w-full lg:w-2/5 sm:text-center">
             <div className="drawer-side w-full ">
                 <label htmlFor="my-drawer-2" className="drawer-overlay hidden lg:block">
                 </label>

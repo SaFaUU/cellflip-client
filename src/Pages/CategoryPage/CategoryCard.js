@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 
 const CategoryCard = ({ product, handleModal, setCloseModalDataState }) => {
     setCloseModalDataState(true)
-    const { productName, img_url, price, date, location, originalPrice, purchaseYear, sellerName, sellerMail, verifiedSeller } = product;
+    const { productName, img_url, price, date, location, originalPrice, purchaseYear, sellerName, sellerMail, verifiedSeller, sellerImg } = product;
     const handleReport = (product) => {
         console.log(product)
         fetch(`https://cellflip-server.vercel.app/report/${product._id}`, {
@@ -47,7 +47,7 @@ const CategoryCard = ({ product, handleModal, setCloseModalDataState }) => {
                         }
                         <div className="avatar">
                             <div className="w-auto rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                <img src="https://placeimg.com/192/192/people" alt='' />
+                                <img src={sellerImg} alt='' />
                             </div>
                         </div>
                     </div>
