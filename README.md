@@ -1,3 +1,3 @@
-adminEmail: \<elon@musk.com\>
+# adminEmail: \<elon@musk.com\>
 
-adminPassword: \<elon@musk.com123\>
+# adminPassword: \<elon@musk.com123\>
